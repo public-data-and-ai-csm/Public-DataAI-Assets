@@ -1,4 +1,4 @@
-# Watson Discovery Content
+# Public Watson Discovery Content
 
 This folder contains a variety of tools, scripts and routines that you can use for Watson Discovery operations.
 
