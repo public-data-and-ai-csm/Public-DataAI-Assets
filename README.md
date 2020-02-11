@@ -6,6 +6,6 @@ Example of README entry:
 
 ## Table of Contents
 
-- [Watson Assistant]() - Area for Watson Assistant materials.
-- [Watson Discovery]() - Area for Watson Discovery materials.
+- [Watson Assistant](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonAssistant) - Area for Watson Assistant materials.
+- [Watson Discovery](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonDiscovery) - Area for Watson Discovery materials.
 
