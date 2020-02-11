@@ -1,4 +1,4 @@
-# Watson Assistant Content
+# Public Watson Assistant Content
 
 This folder contains a variety of tools, scripts and routines that you can use for Watson Assistant operations.
 
