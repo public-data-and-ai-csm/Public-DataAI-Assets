@@ -18,7 +18,7 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Technology
 
-- [IBM Cloud](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/blob/master/LandingPages/IBM_Cloud_General.md)
+- [IBM Cloud](../IBM_Cloud_General.md)
 
 ### By Service or Product
 
