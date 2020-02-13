@@ -6,6 +6,34 @@ This page is still taking shape, but it should always be in an "under constructi
 
 The structure here is important.  On this page are links for people getting started with using these technologies on IBM Cloud.
 
+# Contents
+- **[Introduction - Getting Started](https://github.com/dtoczala/bluemix-landing-page#introduction---getting-started)**
+   - [IBM Cloud - a Platform as a Service (PaaS)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#ibm-bluemix---a-platform-as-a-service-paas)
+   - [IBM Softlayer - an Infrastructure as a Service (IaaS)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#ibm-softlayer---an-infrastructure-as-a-service-iaas)
+   - [IBM Cloud Terms and Topologies](https://github.com/dtoczala/ibm-cloud-landing-page/blob/master/README.md#ibm-cloud-terms-and-topologies)
+   - [Architecting Cloud Applications](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#architecting-cloud-applications)
+- **[Infrastructure Sevices and APIs](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#infrastructure-services-and-apis)**
+   - [Compute](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#compute)
+   - [Storage](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#storage)
+   - [Network](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#network)
+   - [Security](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#security)
+   - [Containers](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#containers)
+   - [VMware](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#vmware)
+   
+- **[Platform Sevices and APIs](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#bluemix-services-and-apis)**
+   - [APIs](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#apis)
+   - [Application Services](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#application-services)
+   - [Blockchain](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#blockchain)
+   - [Cloud Foundry Apps](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#cloud-foundry-apps)
+   - [Data and Analytics](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#data-and-analytics)
+   - [DevOps](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#devops)
+   - [Finance](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#finance)
+   - [Functions](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#functions)
+   - [Integrate](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#integrate)
+   - [Internet of Things (IoT)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#internet-of-things-iot)
+   - [Mobile](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#mobile)
+   - [Security](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#security-1)
+   - [Watson](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#watson)
 ---
 # Introduction - Getting Started
 
