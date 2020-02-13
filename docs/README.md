@@ -18,7 +18,7 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Technology
 
-- [IBM Cloud](../IBM_Cloud_General.md)
+- [IBM Cloud](../docs/IBM_Cloud_General.md)
 
 ### By Service or Product
 
