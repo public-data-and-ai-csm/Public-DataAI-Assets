@@ -9,31 +9,32 @@ The structure here is important.  On this page are links for people getting star
 # Contents
 - **[Introduction - Getting Started](#introduction---getting-started)**
    - [IBM Cloud - a Platform as a Service (PaaS)](#ibm-cloud---a-platform-as-a-service-paas)
-   - [IBM Softlayer - an Infrastructure as a Service (IaaS)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#ibm-softlayer---an-infrastructure-as-a-service-iaas)
-   - [IBM Cloud Terms and Topologies](https://github.com/dtoczala/ibm-cloud-landing-page/blob/master/README.md#ibm-cloud-terms-and-topologies)
-   - [Architecting Cloud Applications](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#architecting-cloud-applications)
-- **[Infrastructure Sevices and APIs](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#infrastructure-services-and-apis)**
-   - [Compute](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#compute)
-   - [Storage](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#storage)
-   - [Network](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#network)
-   - [Security](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#security)
-   - [Containers](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#containers)
-   - [VMware](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#vmware)
+   - [IBM Softlayer - an Infrastructure as a Service (IaaS)](#ibm-softlayer---an-infrastructure-as-a-service-iaas)
+   - [IBM Cloud Terms and Topologies](#ibm-cloud-terms-and-topologies)
+   - [Architecting Cloud Applications](#architecting-cloud-applications)
+- **[Infrastructure Sevices and APIs](h#infrastructure-services-and-apis)**
+   - [Compute](#compute)
+   - [Storage](#storage)
+   - [Network](#network)
+   - [Security](#security)
+   - [Containers](#containers)
+   - [VMware](#vmware)
    
-- **[Platform Sevices and APIs](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#bluemix-services-and-apis)**
-   - [APIs](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#apis)
-   - [Application Services](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#application-services)
-   - [Blockchain](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#blockchain)
-   - [Cloud Foundry Apps](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#cloud-foundry-apps)
-   - [Data and Analytics](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#data-and-analytics)
-   - [DevOps](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#devops)
-   - [Finance](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#finance)
-   - [Functions](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#functions)
-   - [Integrate](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#integrate)
-   - [Internet of Things (IoT)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#internet-of-things-iot)
-   - [Mobile](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#mobile)
-   - [Security](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#security-1)
-   - [Watson](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#watson)
+- **[Platform Sevices and APIs](#bluemix-services-and-apis)**
+   - [APIs](#apis)
+   - [Application Services](#application-services)
+   - [Blockchain](#blockchain)
+   - [Cloud Foundry Apps](#cloud-foundry-apps)
+   - [Data and Analytics](#data-and-analytics)
+   - [DevOps](#devops)
+   - [Finance](#finance)
+   - [Functions](#functions)
+   - [Integrate](#integrate)
+   - [Internet of Things (IoT)](#internet-of-things-iot)
+   - [Mobile](#mobile)
+   - [Security](#security-1)
+   - [Watson](#watson)
+   
 ---
 # Introduction - Getting Started
 
@@ -345,7 +346,7 @@ You can manage users across the IBM Cloud platform and Infrastructure services f
 - [Creating Dynamic Rules for Access Groups](https://console.bluemix.net/docs/iam/accessgroup_rules.html#rules) - if you have SAML federated identity management, then you can create dyanmic rules that take advantage of some of those SAML assertions that you have set up within your organization.
 - [Cloud Foundry and IAM Admin 101](https://www.youtube.com/watch?v=w2AyDVS2SSM&index=12&list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz) - part of the [IBM Cloud Foundation Skills Series](https://www.youtube.com/playlist?list=PLmesOgYt3nKCfsXqx-A5k1bP7t146U4rz) series, this 20 minute video will walk you through the basics of Cloud Foundry role management and the IAM identity and role management.
 
- ### App ID
+### App ID
 
 Use the IBM Cloud App ID service to add authentication to your mobile and web apps and protect your back-end systems. You can also host user profile info that you can use to build engaging experiences. App ID supports authentication using social identity providers, so that users can log-in with their existing Facebook and Google accounts.  This is meant to support user authentication, and should not be your only security consideration.
 
