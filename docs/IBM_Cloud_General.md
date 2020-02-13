@@ -7,8 +7,8 @@ This page is still taking shape, but it should always be in an "under constructi
 The structure here is important.  On this page are links for people getting started with using these technologies on IBM Cloud.
 
 # Contents
-- **[Introduction - Getting Started](https://github.com/dtoczala/bluemix-landing-page#introduction---getting-started)**
-   - [IBM Cloud - a Platform as a Service (PaaS)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#ibm-bluemix---a-platform-as-a-service-paas)
+- **[Introduction - Getting Started](#introduction---getting-started)**
+   - [IBM Cloud - a Platform as a Service (PaaS)](#ibm-cloud---a-platform-as-a-service-paas)
    - [IBM Softlayer - an Infrastructure as a Service (IaaS)](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#ibm-softlayer---an-infrastructure-as-a-service-iaas)
    - [IBM Cloud Terms and Topologies](https://github.com/dtoczala/ibm-cloud-landing-page/blob/master/README.md#ibm-cloud-terms-and-topologies)
    - [Architecting Cloud Applications](https://github.com/dtoczala/bluemix-landing-page/blob/master/README.md#architecting-cloud-applications)
