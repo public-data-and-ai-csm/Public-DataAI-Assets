@@ -9,6 +9,6 @@ Example of README entry:
 - [Watson Assistant](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonAssistant) - Area for Watson Assistant materials.
 - [Watson Discovery](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonDiscovery) - Area for Watson Discovery materials.
 
-- [Landing Pages](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/blob/master/LandingPages/README.md) - Area for various landing pages with links to high value material.
+- [Landing Pages](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/) - Area for various landing pages with links to high value material.
 
 
