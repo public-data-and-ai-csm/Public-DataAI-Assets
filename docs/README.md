@@ -14,11 +14,11 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 ### By Journey 
 
 - Watson Adoption Journey Page
-- IBM Cloud Administration Page
+- **[IBM Cloud Administration](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_Admin.html)** - This has a description of the important aspects of IBM Cloud Administration with links to things that yopu help you quickly set up your IBM Cloud account for cognitive development.
 
 ### By Technology
 
-- [IBM Cloud](/IBM_Cloud_General.md)
+- **[IBM Cloud](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_General.html)** - An overview of some of the things out on the IBM Cloud - not complete, but there is some good general content out here.
 - Watson Services
 
 ### By Service or Product
@@ -26,5 +26,10 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 - Watson Assistant
 - Watson Discovery
 - Watson Speech
-- Watson 
+- Watson Language Translation
+- Watson Knowledge Studio
+- Watson Studio
+- Watson Tone and Personality Insights
+
+
 
