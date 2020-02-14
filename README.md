@@ -8,7 +8,7 @@ This is a collection of scripts, notebooks, and projects developed by IBM CSMs w
   - [Where to Place Your Project](#where-to-place-your-project)
   - [README](#read-me-files)
   - [Required Learning/Skills](#required-learningskills)
-- **[Links to Project Areas](#links-to-project-areas)
+- **[Links to Project Areas](#links-to-project-areas)**
 
 ## Community Guidelines
 
