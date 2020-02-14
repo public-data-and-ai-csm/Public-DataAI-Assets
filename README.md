@@ -6,10 +6,9 @@ This is a collection of scripts, notebooks, and projects developed by IBM CSMs w
 
 - **[Community Guidelines](#community-guidelines)**
   - [Where to Place Your Project](#where-to-place-your-project)
-  - [README](#readme)
-  - [Required Learning/Skills](#required-learning-skills)
+  - [README](#read-me-files)
+  - [Required Learning/Skills](#required-learningskills)
 - **[Links to Project Areas](#links-to-project-areas)
-
 
 ## Community Guidelines
 
@@ -18,7 +17,7 @@ This is a collection of scripts, notebooks, and projects developed by IBM CSMs w
 Please add each project to a SEPARATE folder, and please place it in the general area where it belongs. For example, a Watson Studio notebook that analyzes Watson Assistant chat logs should belong in the Watson Assistant directory.
 If there is a need to create a project in this repository to track collaborator contributions, and to coordinated activities, please go and create a project, buyt please give it a descriptive name (and not something like "Tox's Cool project").
 
-### README
+### READ ME Files
 
 When adding content, don't just dump it in here - document it.  If you are updating a page of links, no updates may be needed.  For code, tools, and utilities, make sure that you have a README page with appropriate contetns describing what the tool or utility does, as well as installation and usage instructions.  Also make sure that you add a line to the appropriate README file in the repository.  This could be on this README page, on the README page for a specific service, on one or more of the [Landing Pages](), or **ALL** of the above.
 Your README should contain the following items:
