@@ -19,7 +19,7 @@ If there is a need to create a project in this repository to track collaborator 
 
 ### READ ME Files
 
-When adding content, don't just dump it in here - document it.  If you are updating a page of links, no updates may be needed.  For code, tools, and utilities, make sure that you have a README page with appropriate contetns describing what the tool or utility does, as well as installation and usage instructions.  Also make sure that you add a line to the appropriate README file in the repository.  This could be on this README page, on the README page for a specific service, on one or more of the [Landing Pages](), or **ALL** of the above.
+When adding content, don't just dump it in here - document it.  If you are updating a page of links, no updates may be needed.  For code, tools, and utilities, make sure that you have a README page with appropriate contetns describing what the tool or utility does, as well as installation and usage instructions.  Also make sure that you add a line to the appropriate README file in the repository.  This could be on this README page, on the README page for a specific service, on one or more of the [Landing Pages](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/), or **ALL** of the above.
 Your README should contain the following items:
 - Link to the tool
 - The author's/owner's name and contact information
