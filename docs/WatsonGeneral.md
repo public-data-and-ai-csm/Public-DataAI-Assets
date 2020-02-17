@@ -6,7 +6,7 @@ Cognitive computing can be complex, but we're here to help you make sense of it.
   - [Watson Assistant](#watson-assistant)
   - [Watson Discovery](#watson-discovery)
   - [Watson Language Translator](#watson-language-translator)
-  - [Watson Natural Language Understanding (NLU)]#watson-natural-language-understanding-nlu)
+  - [Watson Natural Language Understanding (NLU)](#watson-natural-language-understanding-nlu)
   - [Watson Natural Language Classifier (NLC)](#watson-natural-language-classifier-nlc)
   - [Watson OpenScale](#watson-openscale)
   - [Watson Personality Insights](#watson-personality-insights)
