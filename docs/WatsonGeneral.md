@@ -193,27 +193,22 @@ Many tasks require specialized models and a lot of data - and many large data se
 IBM has an environment that will help you with the intersection of data science and machine learning, it's called the [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio#about).  This has a variety of resources and tools to help with your data science projects, and allow you to "unlock" the value hidden in your data.  Check out the special landing page devoted to [Watson Studio](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Studio.html).
 
 ### Data Science, Design and User Experience
-Data science manages to surface data and information from large data sets, to help us understand better.  Design and user experience design help bring this data, and it's insights, to life for your end user.  Any powerful application that delights it's end users will have both a strong user experience, and a strong data science component.  Here is some suggested reading on the intersection of design and data.
-
-### PICK UP EDITING FROM HERE
+Data science manages to surface data and information from large data sets, to help us understand better.  Design and user experience design help bring this data, and it's insights, to life for your end user.  Any powerful application that delights it's end users will have both a strong user experience, and a strong data science component.  Here is some suggested reading on the intersection of design and data:
 
 - [How Designers can use Data to create amazing work](http://blog.invisionapp.com/how-designers-can-use-data/) - Roger Huang of Springboard talks about 5 basic goals in this area, and provides some key resources and tips for the day-to-day application of these concepts.
 - [Experience Design in the Machine Learning Era](https://medium.com/@girardin/experience-design-in-the-machine-learning-era-e16c87f4f2e2) - A long but very good post by Fabien Girardin of BBVA, on the importance of design and data for the success of a any cognitive application.  Thought provoking content.
-- [How Data and Design Can Work Together](http://www.hugeinc.com/ideas/perspective/how-data-and-design-can-work-together) - Heiko Waechter brings some some quick points that you need to consider when working in the intersection of data and design.
-- [5 Steps to Thinking Like a Designer in Machine Learning](http://machinelearningmastery.com/5-steps-to-thinking-like-a-designer-in-machine-learning/) - Kevin Dallas brings up 5 basic points that need to be considered when doing data science, and makes the argument that good data scientists need to be good designers.
-- [Machine Learning and UX](https://medium.com/designer-hangout/machine-learning-and-ux-c28725b5f3) - Byron Houwens discusses great design for machine learning, and highlights the point that there is not a lot of information about the intersection of machine learning and design out there right now.  It's a field full of opportunity.
+- [5 Steps to Thinking Like a Designer in Machine Learning](http://machinelearningmastery.com/5-steps-to-thinking-like-a-designer-in-machine-learning/) - Kevin Dallas brings up 5 basic points that need to be considered when doing data science, and makes the argument that good data scientists need to be good designers.  This is a n old post - but a lot of this remains true today.
 
 ### References for Further Reading
-- [Why Does Machine Learning Require So Much Data](http://freedville.com/blog/2016/12/15/why-does-machine-learning-require-so-much-training-data/) - Great look at why you need so much data, and a veiled reference to [Malcoim Gladwell's 10000 hour rule](http://gladwell.com/outliers/the-10000-hour-rule/).
+- [Why Does Machine Learning Require So Much Data](http://freedville.com/blog/2016/12/15/why-does-machine-learning-require-so-much-training-data/) - Great look at why you need so much data, and a veiled reference to [Malcoim Gladwell's 10000 hour rule](https://www.vox.com/science-and-health/2019/8/23/20828597/the-10000-hour-rule-debunked).
 - [Data Considerations When Building a Cognitive Solution](https://kozhayasite.wordpress.com/2016/07/31/data-considerations-when-building-a-cognitive-solution/) - an overview of data considerations when working with Watson services.
-- [Extract insights from social media posts with Watson and Spark in Data Science Experience](https://www.ibm.com/developerworks/library/cc-cognitive-watson-extract-insights-spark-dsx/index.html) - this tutorial brings together several tools and services to address realistic business problems, that of brand analytics, user segmentation and personalized messaging. It illustrates how to run a Python notebook in Data Science Experience to analyze social media data leveraging Watson services (NLU and PI) for enriching the unstructured content.
 - [Data Scientists and App Develpment](https://medium.com/cognitive-resonance/data-scientists-and-app-development-fde50ebb54de#.nz70d9ke0) - Anthony discusses the importance of data science in the building of cognitive applications, and he shares some ways to learn more about data science.
 - [Invisible Design - AirBnb](http://airbnb.design/invisible-design/) - Amber Cartwright of AirBnB writes about how you need to truly understand a product and the technology behind it, to be able to design effectively.
 - [The 50 Best Free Datasets for Machine Learning](https://gengo.ai/articles/the-50-best-free-datasets-for-machine-learning/) - 50 solid free datasets for machine learning models.  Nice collection of resources here.
-
+- [Kaggle](https://www.kaggle.com/) - register and you can see all sorts of different kinds of datasets, some free, some not.
 
 ## DevOps with Cognitive on IBM Cloud
-The topic of DevOps when working in IBM Cloud is deserving of it's own "landing page".  The open cloud platform and the ability to apply the [Continuous Delivery](https://cloud.ibm.com/docs/overview?topic=overview-dev-journey#devops) service, along with it's support for toolchains, means that you have a lot of options when configuring your IBM Cloud environment to promote best practices and DevOps principles.
+The topic of DevOps when working in IBM Cloud is deserving of it's own "landing page".  The open cloud platform and the ability to apply the [Continuous Delivery](https://cloud.ibm.com/docs/services/ContinuousDelivery?topic=ContinuousDelivery-getting-started) service, along with it's support for toolchains, means that you have a lot of options when configuring your IBM Cloud environment to promote best practices and DevOps principles.
 
 ### References for Further Reading
 - [All-In-One Tool for Backing Up IBM Cloud and Watson Services](https://github.com/modlanglais/ibm-cloud-backup) - a Python project, led by [Morgan Langlais](https://github.com/modlanglais), out on GitHub which will backup (and eventually restore) your IBM Cloud and IBM Watson repositories and services.
@@ -230,10 +225,9 @@ When looking at testing Cognitive systems, we run into issues that are new to so
 There are also some good tools available to help you in you testing of your Watson cognitive services.  There is the [Watson Cognitive Testing Framework](https://github.com/joe4k/wdcutils/) for measuring performance, which provides several commonly used performance metrics of custom ML models (Accuracy, Precision/Recall/F1, Confusion Matrix, AUC).  [Andrew Freed](https://medium.com/@arfreed) has an excellent [2 part series on testing your chatbot](https://medium.com/ibm-watson/testing-strategies-for-chatbots-part-1-testing-their-classifiers-20becaf5f211).
 
 ### References for Further Reading
-- [Andrew Freed Blogs](https://developer.ibm.com/watson/blog/author/afreed/) and [More Blogs](https://medium.com/@arfreed) - Andrew has done some thinking about cognitive testing, his blog posts will give you some insight into solid testing approaches.  You can probably tell, we're big fans of his.
+- [Andrew Freed Blogs](https://medium.com/@arfreed) - Andrew has done some thinking about cognitive testing, his blog posts will give you some insight into solid testing approaches.  You can probably tell, we're big fans of his.
 - [Cognitive Quality Assurance \- An Introduction](https://brainsteam.co.uk/2016/03/29/cognitive-quality-assurance-an-introduction/) and [Cognitive Quality Assurance \- Performance Metrics](https://brainsteam.co.uk/2016/05/29/cognitive-quality-assurance-pt-2-performance-metrics/) - both authored by James Ravenscroft, with some good advice and introduction to the concepts of accuracy, precision, recall, and confusion matrices.
-- [Tox K-Fold testing and deployment tool](https://github.com/dtoczala/watson-landing-page/blob/master/notebooks/ANYBOT_Test-and-Deploy.ipynb) - this is a Python notebook which you can deploy on Watson Studio, which will do k-fold testing of your Watson Assistant intents, and give you insights into how effective your training is
-- [Watson Cognitive Testing Framework](https://github.com/joe4k/wdcutils/) - a great set of Python Notebooks for measuring the performance of NLC, Assistant, NLU, and Visual Recognition.  Also check out the blog post, [Train and evaluate custom machine learning models of Watson Develper Cloud](https://developer.ibm.com/dwblog/2017/machine-learning-custom-models-watson-developer-cloud/), which introduces this framework and discusses how to use it.
+- [Tox K-Fold testing and deployment tool](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/blob/master/WatsonAssistant/CSM-BOT-KFold-Test.ipynb) - this is a Python notebook which you can deploy on Watson Studio, which will do k-fold testing of your Watson Assistant intents, and give you insights into how effective your training is.
 - [Testing an Express app with SuperTest, moxios and Jest](https://codewithhugo.com/testing-an-express-app-with-supertest-moxios-and-jest/) - a blog post outlining a good approach for testing your Express based apps.
 - [Jest](https://jestjs.io/) - a simple JavaScript testing framework you can use.  I haven't used it yet, but it comes highly recommended.
 - [Codeless Test Automation for IBM Watson Chatbots](https://chatbotsmagazine.com/10-minutes-codeless-test-automation-for-ibm-watson-chatbots-d71eac9626d7) - a great 10 minute read that introduces [Botium](https://www.botium.at/), a no-code chatbot testing tool.
@@ -241,10 +235,7 @@ There are also some good tools available to help you in you testing of your Wats
 ## Watson/IBM Cloud Security Concerns
 There are some very real security implications that you will have to consider when developing applications and systems that use the IBM Cloud, and the Watson services hosted on that cloud.
 - **Question:** How do Watson Developer Cloud services handle PII and PHI data?
-  - **Answer:** PHI (Personal Health Information) data should NOT be handled by Watson Developer Cloud services. PII (Personally Identifiable Information), on the other hand may be okay to send to Watson Developer Cloud services. WDC services do not save any data if the user opts-out. If that is NOT sufficient, then the customer has the responsibility of any required de-identifying before sending the data to the Watson services. In certain emergency scenarios, deletion of PII data may be done by IBM team but this is handled on a case-by-case basis (contact Watson Security for any such needs).
-
-### References for Further Reading
-- **[WDC Security Overview](https://www.ibm.com/watson/assets/pdfs/Watson_Developer_Cloud_Security_Overview_October-2016.pdf)** - a PDF with a general overview of security topics when using Watson services (published October 2016)
+  - **Answer:** PHI (Personal Health Information) data should NOT be handled by IBM Public Cloud services. PII (Personally Identifiable Information), on the other hand may be okay to send to IBM Cloud services. Watson\ services do not save any data if the user opts-out. If that is NOT sufficient, then the customer has the responsibility of any required de-identifying before sending the data to the Watson services. In certain emergency scenarios, deletion of PII data may be done by IBM team but this is handled on a case-by-case basis (contact Watson Security for any such needs).
 
 ---
 # Code, Development Resources, and GitHub Repositories
@@ -266,27 +257,16 @@ This section will share a few different learning environments and approaches.  I
 
 ### Coursera 
 - [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone/home/) - a "starter course" suitable for technical and non-technical people.
-- [IBM Applied AI Certificate](https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai#faq) - a certificate granting set of courses which will walk you through the basics of building out an AI solution using the Watson services, Python, and OpenCV.
+- [IBM Applied AI Certificate](https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai#about) - a certificate granting set of courses which will walk you through the basics of building out an AI solution using the Watson services, Python, and OpenCV.
 - [AI Engineer Certificate](https://www.coursera.org/professional-certificates/ai-engineer#about) - another set of  certificate granting courses, but these focus on machine learning.  You'll use Python in conjunction with Spark, Keras, PyTorch, and TensorFlow.  Much more "in depth" than the Watson focused certificate - with a focus on Machine Learning.
 
 ---
 # Common Tips and Tricks
 This section will cover some of the common tips and tricks used by cognitive develpment professionals, and covers some of those things that are not addressed in the documentation.
 
-- [IBM Cloud Tips and Tricks](docs/ibm_cloud_tipstricks.md)
-- [IBM Cloud Landing Page](https://github.com/dtoczala/ibm-cloud-landing-page) - a similar project to this one, except it is focsed on the IBM Cloud Platform.
+- [IBM Watson Developer - Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Coding_Tips_Tricks.html)
 
 ## Staying Aware of Watson and Cloud Best practices
 There are some very good sources for current material on best practices with the Watson services.  Often these are published in a few "hotspots", and it's possible for you to monitor these so you are always aware of the latest information.  Here are some RSS feeds to some key "hotspots":
 
-- [RSS feed for Cloud Computing blogs on developerWorks](https://developer.ibm.com/dwblog/category/cloud-computing/feed/)
-- [RSS feed for Cognitive Computing blogs on developerWorks](https://developer.ibm.com/dwblog/category/cognitive-computing/feed/)
 - [IBM Watson page on Medium](https://medium.com/ibm-watson) - seems to have quick notes on what is new and what is newsworthy in the Watson world - not always technical, but informative.
-
-_Note: You can also follow your favorite author by subscribing to an RSS feed for just their content.  The RSS feed follows this format:_
-```
-https://developer.ibm.com/dwblog/author/<author_id>/feed/
-```
-Here are some examples:
-- To follow Dan Toczala's content, use https://developer.ibm.com/dwblog/author/dtoczala/feed/.
-- To follow Joe Kozhaya's content, use https://developer.ibm.com/dwblog/author/kozhaya/feed/
