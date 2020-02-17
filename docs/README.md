@@ -15,6 +15,7 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 - Watson Adoption Journey Page
 - **[IBM Cloud Administration](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_Admin.html)** - This has a description of the important aspects of IBM Cloud Administration with links to things that yopu help you quickly set up your IBM Cloud account for cognitive development.
+- **[IBM Watson Developer - Coding Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Coding_Tips_Tricks.html)** - this has some rough standards, some tips, some tricks, and some of the things that developers who are experienced with the Watson services know.  Got a good tip or trick?  Add it to this landing page!
 
 ### By Technology
 
