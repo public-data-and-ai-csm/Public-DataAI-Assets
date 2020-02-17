@@ -2,19 +2,28 @@
 
 This content is changing over time.  Please clean up anything that is out of date.  
 
+## Table of Contents
+
+- **[Good General Watson Architecture Practices](#good-general-watson-architecture-practices)**
+  - [Have a Secondary Watson Service Instance](#have-a-secondary-watson-service-instance)
+- **[Good General Watson Coding Practices](#good-general-watson-coding-practices)**
+  - [Use Environmental Parameters for Watson Service Endpoints](#use-environmental-parameters-for-watson-service-endpoints)
+- **[Good Practices for Python Notebooks in Watson Studio](#good-practices-for-python-notebooks-in-watson-studio)**
+  - [Have a Standard First Three Blocks of your Python Notebook](#have-a-standard-first-three-blocks-of-your-python-notebook)
+
 ## Good General Watson Architecture Practices
-### Have a Secondary Watson service Instance
+### Have a Secondary Watson Service Instance
 It is good architectural practice to have a second Watson service instance for your Watson services, and that it be located in a different Kubernetes cluster, and a different data center.  This gives you the ability to gracefuly degrade should you lose connectivity to, or the service of, one of your Watson service instances.
 _Note: You should not have to do this in development environments.  You can test failover capability in test and performance environments prior to deployment.
 
 ## Good General Watson Coding Practices
-### Use Environmental Parameters for Watson service endpoints
+### Use Environmental Parameters for Watson Service Endpoints
 It is good coding practice to use two environmental parameters in your code.  One for a primary Watson service endpoint, and one for your secondary (or failover) Watson service endpoint.  So if you had a colaboration layer application that communicated with Watson Assistant, you would have the following:
 - One called PRIMARY_WA_ENDPOINT
 - One called SECONDARY_WA_ENDPOINT
 
-## Good practices for Python Notebooks in Watson Studio
-### Have a standard first three blocks of your Python Notebook
+## Good Practices for Python Notebooks in Watson Studio
+### Have a Standard First Three Blocks of your Python Notebook
 It's considered good coding practice to decalre all of the Python modules that you will need in your first block of code in your notebook.  It should look like this:
 ```
 import sys, os
