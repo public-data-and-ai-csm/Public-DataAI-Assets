@@ -20,15 +20,13 @@ Cognitive computing can be complex, but we're here to help you make sense of it.
   - [Chatbots](#chatbots)
   - [Customer Care](#customer-care)
   - [Visual Inspection](#visual-inspection)
-- **[Watson Integrations](https://github.com/dtoczala/watson-landing-page#watson-integrations)**
-  - [ServiceNow Integration](https://github.com/dtoczala/watson-landing-page#service-now-integration)
-- **[Cognitive Development Topics](https://github.com/dtoczala/watson-landing-page#cognitive-development-topics)**
-  - [General Cognitive Development Information](https://github.com/dtoczala/watson-landing-page#general-cognitive-development-information)
-  - [Cognitive Architectures](https://github.com/dtoczala/watson-landing-page#cognitive-architectures)
-  - [The Importance of Data](https://github.com/dtoczala/watson-landing-page#the-importance-of-data)
-  - [DevOps with Cognitive on IBM Cloud](https://github.com/dtoczala/watson-landing-page#devops-with-cognitive-on-bluemix)
-  - [Testing Approaches and Methods](https://github.com/dtoczala/watson-landing-page#testing-approaches-and-methods)
-  - [Watson/IBM Cloud Security Concerns](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#watsonibm-cloud-security-concerns)
+- **[Cognitive Development Topics](#cognitive-development-topics)**
+  - [General Cognitive Development Information](#general-cognitive-development-information)
+  - [Cognitive Architectures](#cognitive-architectures)
+  - [The Importance of Data](#the-importance-of-data)
+  - [DevOps with Cognitive on IBM Cloud](#devops-with-cognitive-on-bluemix)
+  - [Testing Approaches and Methods](#testing-approaches-and-methods)
+  - [Watson/IBM Cloud Security Concerns](#watsonibm-cloud-security-concerns)
 - **[Code Development Resources and GitHub Repositories](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#code-development-resources-and-github-repositories)**
   - [Development Resources](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#development-resources)
   - [Learning and Training](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#learning-and-training)
@@ -160,68 +158,44 @@ Chatbots are popular right now, and they can help serve a real purpose.  Many cu
 - [Build a Chatbot That Cares](https://medium.com/ibm-watson-developer-cloud/build-a-chatbot-that-cares-part-1-d1c273e17a63\#.h9ahlfoh1) - nice series on building an IOT chatbot using the Coversation, Tone Analyzer, Speech-to-Text and Text-to-Speech services.  Uses the [TJBot](https://ibmtjbot.github.io/) which is based on a Raspberry Pi - one of our favorite DIY platforms.
 - [Chatbot with Conversation, NLU and Weather](https://developer.ibm.com/dwblog/2017/chatbot-watson-conversation-natural-language-understanding-nlu/) - developerWors article that walks you through setting up and cloning a project that will build a chatbot that uses Assistant, NLU and Weather.  Good example and you can poke through the code.  Be aware , this is beginning to get a bit dated....
 
-# STOPPED EDITING HERE - PICK UP FROM HERE
-
-## Customer Care
-
-This is another popular use case, where a cognitive agent is used to handle common customer care problems and issues.  
-
-### References for Further Reading
-
-- [Customer Care Starter Kit](https://github.com/watson-developer-cloud/social-customer-care) - This application is a Starter Kit (SK) that is designed to get you up and running quickly with a common industry pattern, and to provide information and best practices around Watson services. This application was created to demonstrate how the Natural Language Classifier can be used to direct customer requests and queries to the appropriate agent or workflow. Additionally, Tone Analyzer, Alchemy Language, and Personality Insights demonstrate how to efficiently provide an agent with customer insights.  You will need to replace the Alchemy Language portions of this starter kit with NLU service calls - since Alchemy is being deprecated.
-- [Knowledge Base Search](https://www.ibm.com/watson/developercloud/starter-kits.html#knowledge-base-search) - this is an improved knowledge base search based on annotated content in a corpus.  Uses the Watson Discovery service.
-- [8 steps for developing question answer solutions using Watson Conversation and Watson Discovery](https://developer.ibm.com/dwblog/2017/best-practices-developing-question-answer-solutions-watson-conversation-discovery/?social_post=1230338742&fst=Discover) - Excellent overview of how to develop an Expert Advisor or Q&A system using Watson Assistant and Watson Discovery.  Great real-world advice from two guys who have done this themselves.
-- [Call Analytics Integrated Application](https://github.com/rodalton/call-analytics) - an EXCELLENT piece of code done by [Ronan Dalton](https://github.com/rodalton) that uses a Java application in combination with various Watson services, Cloud Object Storage (COS), and DB2 on Cloud.  Does analytics of call center recordings using the cognitive capabilities of Watson.
-
 ## Visual Inspection
 
 This use case involves a visual inspection of still images using the Visual Recognition service and some other technologies.  Used to inspect, identify, and inform.
 
 ### References for Further Reading
 - [Seafood Inspection (Dory)](https://devpost.com/software/dory) - a team created a seafood inspection app using Visual Recognition that will distinguish between different types of seafood.
-- [Pokemon Go App](https://www.ibm.com/blogs/internet-of-things/pokemon-go-watson/) - Find Pokemon with the help of Watsons Visual Recognition services.
-
----
-# Watson Integrations
-
-This is a colection of various popular topics around the idea of Watson integrations.  This is NOT an exhaustive list of potential integrations, or business partner integrations.  It is a list of integrations that we have used, and some tips and ionsights on how to use them.
-
-## Service Now Integration
-
-ServiceNow is a CRM solution that is widely used by many SaaS providers.  There is a pre-built integration between ServiceNow and Watson Assistant - which allows you to easily incorporate Watson conversational capabilities into a ServiceNow implementation.
-
-### References and Further Reading
-
-- [Deploy a Virtual Agent with IBM Watson's Assistant (Conversation) Service](https://community.servicenow.com/community?id=community_blog&sys_id=2e7ca2e1dbd0dbc01dcaf3231f96192b) - article in the ServiceNow community detailing how to obtain a Virtual Agent prebuilt for self service incident deflection, and easily extensible to additional use cases both within and outside ITSM.  Definitely worth a look.
+- [Pokemon Go App](https://www.ibm.com/blogs/internet-of-things/pokemon-go-watson/) - Find Pokemon with the help of the Watson Visual Recognition services.
 
 ---
 # Cognitive Development Topics
 
-This is a colection of various popular topics within the realm of cognitive development.  Before you dive in and beginn building that first Watson driven application, you probably want to check out the [IBM Watson Coding Tips and Tricks](docs/coding_tips.md).  This is a colection of observations and lessons learned from people actually **_building things_** with the IBM Watson services.
+This is a colection of various popular topics within the realm of cognitive development.  Before you dive in and beginn building that first Watson driven application, you probably want to check out the [IBM Watson Coding Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Coding_Tips_Tricks.html).  This is a colection of observations and lessons learned from people actually **_building things_** with the IBM Watson services.
 
 ## General Cognitive Development Information
 Cognitive development in general is not always a well understood topic.  Software development teams are unfamiliar with the changes to typical concerns and iterations that a cognitive development project will have.  Teams often have incorrect expectations, and underestimate the importance of data, as well as the number of training iterations required to build a highly effective cognitive model.
 
 ### References and Further Reading
-- [Building a Cognitive App in 70 days](https://developer.ibm.com/dwblog/2016/cognitive-solution-70-days-joe-kozhaya/) - An insider take on the critical factors involved in building a cognitive application (the [Watson Business Coach](https://www.ibm.com/cognitive/businesscoach/) ) in only 70 days.
-- [IBM Certified Application Developer - Watson V3](https://www.ibm.com/certify/cert?id=60000101) - get your Watson certification badge.
+- [Building a Cognitive App in 70 days](https://developer.ibm.com/dwblog/2016/cognitive-solution-70-days-joe-kozhaya/) - An insider take on the critical factors involved in building a cognitive application (the [Watson Business Coach](https://www.ibm.com/cognitive/businesscoach/) ) in only 70 days.  This is a dated article - and references a product no longer available - but the general concepts still hold true.
+- [IBM Certified Application Developer - Watson V3](https://www.ibm.com/certify/cert?id=60000101) - get your Watson Application Developer certification badge.
 
 ## Cognitive Architectures
 Cognitive architectures are not that different from the architectures for applications that you are familiar with.  They just use cognitive capabilities and components that may behave somewhat differently than a more "classical" software component.  You also need to take into account the need for _training_ in your maintenance of a cognitive solution, which adds a new wrinkle to how you architect a cognitive application.
 
 ### References for Further Reading
-- [Common Cognitive Architectures](https://www.ibm.com/devops/method/content/architecture/cognitiveArchitecture) - taken from the IBM Cloud Garage Method, this set of architectures makes a good starting point for architects new to the building of cognitive solutions.
+- [Common Cognitive Architectures](https://www.ibm.com/cloud/architecture/architectures/aiAnalyticsArchitecture) - taken from the IBM Cloud Garage Method, this set of architectures makes a good starting point for architects new to the building of cognitive solutions.
 
 ## The Importance of Data
 Data is the lifeblood of any cognitive solution.  You need to be aware of [the common challenges that you will face](http://freedville.com/blog/2017/03/05/machine-learning-is-just-the-tip-of-the-iceberg-5-dangers-lurking-below-the-surface/) when working with the data that powers your cognitive solution.  The training processes used with cognitive systems is iterative, and the management of the data to do this training is an ongoing concern.  It's part of the common maintenance that is needed for a truly cognitive system.
 
-Many tasks require specialized models and a lot of data - and many large data sets are not commercially available without incurring a large cost.  So IBM makes some common AI models available out on the [Model Asset Exchange](https://developer.ibm.com/exchanges/models/), which shares some common AI models and llows you to quickly get started.  Some of these may not meet your needs, and you might want to train your own models - but you need data to do this.  IBM makes some nice datasets available (for free, and for commercial use) out on the [Data Asset Exchange](https://developer.ibm.com/exchanges/data/).  Some of these datasets are just collections of freely available data, some are new data sets.
+Many tasks require specialized models and a lot of data - and many large data sets are not commercially available without incurring a large cost.  So IBM makes some common AI models available out on the [Model Asset Exchange](https://developer.ibm.com/exchanges/models/), which shares some common AI models and allows you to quickly get started.  Some of these may not meet your needs, and you might want to train your own models - but you need data to do this.  IBM makes some nice datasets available (for free, and for commercial use) out on the [Data Asset Exchange](https://developer.ibm.com/exchanges/data/).  Some of these datasets are just collections of freely available data, some are new data sets.
 
 ### The IBM Watson Studio
-IBM has an environment that will help you with the intersection of data science and machine learning, it's called the [IBM Watson Studio](https://dataplatform.cloud.ibm.com/home).  This has a variety of resources and tools to help with your data science projects, and allow you to "unlock" the value hidden in your data.  Check out the section of this landing page devoted to [Watson Studio](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#watson-studio).
+IBM has an environment that will help you with the intersection of data science and machine learning, it's called the [IBM Watson Studio](https://cloud.ibm.com/catalog/services/watson-studio#about).  This has a variety of resources and tools to help with your data science projects, and allow you to "unlock" the value hidden in your data.  Check out the special landing page devoted to [Watson Studio](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Studio.html).
 
 ### Data Science, Design and User Experience
 Data science manages to surface data and information from large data sets, to help us understand better.  Design and user experience design help bring this data, and it's insights, to life for your end user.  Any powerful application that delights it's end users will have both a strong user experience, and a strong data science component.  Here is some suggested reading on the intersection of design and data.
+
+### PICK UP EDITING FROM HERE
 
 - [How Designers can use Data to create amazing work](http://blog.invisionapp.com/how-designers-can-use-data/) - Roger Huang of Springboard talks about 5 basic goals in this area, and provides some key resources and tips for the day-to-day application of these concepts.
 - [Experience Design in the Machine Learning Era](https://medium.com/@girardin/experience-design-in-the-machine-learning-era-e16c87f4f2e2) - A long but very good post by Fabien Girardin of BBVA, on the importance of design and data for the success of a any cognitive application.  Thought provoking content.
