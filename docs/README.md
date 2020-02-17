@@ -20,7 +20,7 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 ### By Technology
 
 - **[IBM Cloud](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_General.html)** - An overview of some of the things out on the IBM Cloud - not complete, but there is some good general content out here.
-- Watson Services
+- **[Watson Services](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/WatsonGeneral.html)** - a general overview of the Watson services
 
 ### By Service or Product
 
