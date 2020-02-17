@@ -1,25 +1,25 @@
 # Welcome to Watson
 Cognitive computing can be complex, but we're here to help you make sense of it.  This is a technically focused set of pages that will allow you to explore the technology, see the latest best practices, and help you master cognitive application development.
 # Contents
-- **[Introduction](https://github.com/dtoczala/watson-landing-page#introduction---getting-started)**
-- **[Watson Services and APIs](https://github.com/dtoczala/watson-landing-page#watson-services-and-apis)**
-  - [Watson Assistant](https://github.com/dtoczala/watson-landing-page#watson-assistant-formerly-conversation)
-  - [Discovery](https://github.com/dtoczala/watson-landing-page#discovery)
-  - [Language Translator](https://github.com/dtoczala/watson-landing-page#language-translator)
-  - [Natural Language Understanding (NLU)](https://github.com/dtoczala/watson-landing-page#natural-language-understanding-nlu)
-  - [Natural Language Classifier (NLC)](https://github.com/dtoczala/watson-landing-page#natural-language-classifier-nlc)
-  - [OpenScale](https://github.com/dtoczala/watson-landing-page#openscale)
-  - [Personality Insights](https://github.com/dtoczala/watson-landing-page#personality-insights)
-  - [Speech to Text and Text to Speech (STT/TTS)](https://github.com/dtoczala/watson-landing-page#speech-to-text-and-text-to-speech-stttts)
-  - [Tone Analyzer](https://github.com/dtoczala/watson-landing-page#tone-analyzer)
-  - [Tradeoff Analytics](https://github.com/dtoczala/watson-landing-page#tradeoff-analytics)
-  - [Visual Recognition](https://github.com/dtoczala/watson-landing-page#visual-recognition)
-  - [Watson Knowledge Studio](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#watson-knowledge-studio-wks)
-  - [Watson Studio](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#watson-studio)
-- **[Common Use Cases](https://github.com/dtoczala/watson-landing-page#common-use-cases)**
-  - [Chatbots](https://github.com/dtoczala/watson-landing-page#chatbots)
-  - [Customer Care](https://github.com/dtoczala/watson-landing-page#customer-care)
-  - [Visual Inspection](https://github.com/dtoczala/watson-landing-page#visual-inspection)
+- **[Introduction](#introduction---getting-started)**
+- **[Watson Services and APIs](watson-services-and-apis)**
+  - [Watson Assistant](#watson-assistant)
+  - [Watson Discovery](#watson-discovery)
+  - [Watson Language Translator](#watson-language-translator)
+  - [Watson Natural Language Understanding (NLU)]#watson-natural-language-understanding-nlu)
+  - [Watson Natural Language Classifier (NLC)](#watson-natural-language-classifier-nlc)
+  - [Watson OpenScale](#watson-openscale)
+  - [Watson Personality Insights](#watson-personality-insights)
+  - [Watson Speech (STT/TTS)](#watson-speech-stttts)
+  - [Watson Tone Analyzer](#watson-tone-analyzer)
+  - [Tradeoff Analytics](#watson-tradeoff-analytics)
+  - [Visual Recognition](#watson-visual-recognition)
+  - [Watson Knowledge Studio](#watson-knowledge-studio-wks)
+  - [Watson Studio](#watson-studio)
+- **[Common Use Cases](#common-use-cases)**
+  - [Chatbots](#chatbots)
+  - [Customer Care](#customer-care)
+  - [Visual Inspection](#visual-inspection)
 - **[Watson Integrations](https://github.com/dtoczala/watson-landing-page#watson-integrations)**
   - [ServiceNow Integration](https://github.com/dtoczala/watson-landing-page#service-now-integration)
 - **[Cognitive Development Topics](https://github.com/dtoczala/watson-landing-page#cognitive-development-topics)**
@@ -68,180 +68,99 @@ Once intents and entities are defined in the Assistant service, it is the third 
 ### References for Further Reading
 - [Watson Assitant Landing Page]() - our landing page with Watson Assistant specific links to more general information, best practices, and technical details about the service.  
 
-## Discovery
-The Watson Discovery service helps you gather insights from large amounts of data, similar to a search engine.  The big difference is that the Discovery service doesn't just "look for keywords", it understands concepts as well.  Discovery lets you upload your own enterprise data and then uses its enrichment capabilities to understand the data and gather insights.  You can use Discovery in various use cases such as capturing insights from data as well as question/answer use cases where the corpus consists of a large number of documents and the objective is to find the most relevant answers to a query.
+## Watson Discovery
+The Watson Discovery service helps you gather insights from large amounts of data, similar to a search engine.  The big difference is that the Discovery service doesn't just "look for keywords", it understands concepts as well.  Discovery lets you upload (or ingest) your own enterprise data and then uses its enrichment capabilities to understand the data and gather insights.  You can use Discovery in various use cases such as capturing insights from data as well as question/answer use cases where the corpus consists of a large number of documents and the objective is to find the most relevant answers to a query.
+
+This can also be used in conjunction with custom annotation/ontology models developed using Watson Knowledge Studio, enabling you to identify industry/domain specific entities and relations in the ingested content.  
 
 Another interesting feature of Discovery is that it comes preinstalled with a Watson News data set.  This is a public data set of the news, with approximately 300,000 articles and blogs daily, that is pre-enriched with cognitive insights. This results in a data set of primarily English language news sources that is updated continuously. You can use the Discovery News capability to query this data set for insights that you can integrate directly into your application.
 
 ### References for Further Reading
 - [Watson Discovery Landing Page]() - our landing page with Watson Assistant specific links to more general information, best practices, and technical details about the service.  
 
-# TOXTOXTOX
+## Watson Natural Language Understanding (NLU)
+The Natural Language Understanding (NLU) service allows you to analyze text to extract meta-data from supplied content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles.  It also has the capability to be used in conjunction with custom annotation models developed using Watson Knowledge Studio, enabling you to identify industry/domain specific entities and relations in unstructured text.
 
-
-### References for Further Reading
-- [Discovery API Reference](https://www.ibm.com/watson/developercloud/discovery/api/v1/) - The API reference page.
-- [Watson Discovery at the Size You Want](https://dtoczala.wordpress.com/2019/11/19/watson-discovery-at-the-size-you-want/) - a blog post that helps you determine the size that you will need for your Discovery instance, as well as the costs associated with it.  It also helps you make sure that you deploy the correct sized repository.
-- [Explore the news and gather insights using Watson Discovery](https://www.ibm.com/developerworks/library/cc-watson-discovery-service-bluemix-explore/) - Nice tutorial on how to use the news reading and curation capabilities in the Discover services, and how to use some of the basic functionality to get insights into what the news is.
-- [The IBM Advantage for Cognitive Discovery Cloud Architecture](https://www.ibm.com/cloud/garage/files/IBM-Advantage-Paper-for-Cognitive-Discovery.pdf) - hesitated to add this because it is a LITTLE bit of a "rah-rah" sales pitch.  However, it does a nice job of explaining the Discovery service, shares some reference architectures, and talks about the importance of good data and data handling.
-
-**Code**
-- [Sample UI and code pattern for Discovery with Node,js](https://developer.ibm.com/code/patterns/create-an-app-to-perform-intelligent-searches-on-data/) - the demo video is 15 minutes long, and you can just go and grab the code out of GitHub.  Nice way to get yourself kickstarted with using Discovery with Node,js.
-- [Finding Custom Models in Discovery](https://dtoczala.wordpress.com/2019/09/12/finding-custom-models-in-watson-discovery/) - a quick bit of Python code that tells you where you have custom models applied in your Discovery instance.  Nice example of using the Python SDK.
-
-**Integration**
-- [8 steps for developing question answer solutions using Watson Conversation and Watson Discovery](https://developer.ibm.com/dwblog/2017/best-practices-developing-question-answer-solutions-watson-conversation-discovery/?social_post=1230338742&fst=Discover) - Excellent overview of how to develop an Expert Advisor or Q&A system using Watson Assistant and Watson Discovery.  Great real-world advice from two guys who have done this themselves.
-- [Example of Conversation and Discovery Integration](https://www.youtube.com/watch?v=SasXUqBE-38&feature=youtu.be) - This YouTube video shows an example of a Java application that integrates the Assistant and Discovery services.
-- [Build a configurable, retail-ready chatbot](https://developer.ibm.com/code/journey/create-cognitive-retail-chatbot/) - this is a good example of integrating usage of [Assistant](https://github.com/dtoczala/watson-landing-page#watson-assistant-formerly-conversation) and [Discovery](https://github.com/dtoczala/watson-landing-page#discovery), along with some other things.  It includes code as well.
-
-## Language Translator
-From translating documents, apps, and websites to creating multilingual chatbots, what will you build? Instantly translate your content into multiple languages. Add on to your base translation model via corpus customization; which allows you to create your own translation models which account for regional or industry-specific terms. 
+It has replaced most of the functionality that was previously exposed in the Alchemy Language service.  Users who utilized Alchemy Language in the past are now encouraged to use the Watson NLU service.
 
 ### References for Further Reading
-- [Document Translation Made Easy with Watson Language Translator](https://www.youtube.com/watch?v=NoQr-6KQwEE) - a great video by [Ronan Dalton](https://github.com/rodalton), which takes you through setting up language translator to translate a document from one language to another.  Simple and easy to follow - takes less than 10 minutes.
-- [LT API Reference](https://cloud.ibm.com/apidocs/language-translator) - The API reference page.
-- [LT Documentation](https://cloud.ibm.com/docs/services/language-translator/getting-started.html) 
-- [What's New](https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-release-notes) - Our release notes show you all the exciting things that have come out
-- [Build multilingual chatbots](https://medium.com/ibm-watson/build-multilingual-chatbots-with-watson-language-translator-watson-assistant-8c38247e8af1) A common use case and demo showcasing how ou can build multilingual conversational assistants!
-- [A Gentle Introduction to Calculating the BLEU Score for Text in Python](https://machinelearningmastery.com/calculate-bleu-score-for-text-python/) - an introduction to the BLEU (BiLingual Evaluation Understudy) score, a way to objectively evaluate the effectiveness of your Language translation application.
+- [Watson NLU Landing Page]() - our landing page with Watson NLU specific links to more general information, best practices, and technical details about the service.  
 
+## Watson Natural Language Classifier (NLC)
+The Natural Language Classifier service applies cognitive computing techniques to return the best matching classes (typically referred to as intents) for a sentence or phrase. For example, you submit a question and the service returns keys to the best matching intents. You create a classifier instance by providing a set of utterances and a corresponding set of correct intents for each training question. After training, the new classifier can accept new questions or phrases and return the top matches with a probability score for each match.
 
-## Natural Language Understanding (NLU)
-The NLU service allows you to analyze text to extract meta-data from supplied content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles.  It also has the capability to be used in conjunction with custom annotation models developed using Watson Knowledge Studio, enabling you to identify industry/domain specific entities and relations in unstructured text.
-
-It has replaced most of the functionality that was exposed in the [Alchemy Language](https://github.com/dtoczala/watson-landing-page#alchemy-api) service.  Users who utilized Alchemy Language in the past are now encouraged to use the NLU service.
+This is the same kind of "intent detection" capability that you see in the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) service - and we encourage new users to use the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) service instead.  It provides more and better tools for managing and testing yopur classification engine.
 
 ### References for Further Reading
-- [NLU API Reference](https://www.ibm.com/watson/developercloud/natural-language-understanding/api/v1/) - The API reference page.
-- [NLU Redbook](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248398.html?Open) - A large document with some best practices and an example use case using NLU.  Very big, lots of details.
-- [NLU Categories Hierarchy](https://cloud.ibm.com/docs/services/natural-language-understanding?topic=natural-language-understanding-categories-hierarchy#categories-hierarchy) - from the online docs, a list of the categories hierarchy returned by NLU.  See if this breakdown will work for your use case.
+- [Watson NLC Landing Page]() - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.  Not a lot of info here, most users of the service are "legacy" users who used this service before the Watson Assistant service was available.
 
-**Code**
-- [Chatbot with Conversation, NLU and Weather](https://developer.ibm.com/dwblog/2017/chatbot-watson-conversation-natural-language-understanding-nlu/) - developerWorks article that walks you through setting up and cloning a project that will build a chatbot that uses Assistant, NLU and Weather.  Good example and you can poke through the code.
-
-## Natural Language Classifier (NLC)
-The Natural Language Classifier service applies cognitive computing techniques to return the best matching classes for a sentence or phrase. For example, you submit a question and the service returns keys to the best matching intents. You create a classifier instance by providing a set of utterances and a corresponding set of correct intents for each training question. After training, the new classifier can accept new questions or phrases and return the top matches with a probability score for each match.
+## Watson OpenScale
+Watson OpenScale allows enterprises to automate and operationalize the AI lifecycle in business applications.  It will help ensure that AI models are free from bias, can be easily explained and understood by business users, and are auditable in business transactions. OpenScale supports AI models built and run in Watson Studio.  Examples are Watson Machine Learning, Azure ML, Amazon SageMaker, and others.  
 
 ### References for Further Reading
-- [NLC API Reference](https://www.ibm.com/watson/developercloud/natural-language-classifier/api/v1/) - The API reference page.
-- [NLC Best Practices](https://www.ibm.com/watson/assets-watson/pdf/Watson-NLC-Links-Best-Practices-Design-Patterns.pdf) - a quick slide deck reviewing some best practices and design patterns for NLC.
-- [NLC Handbook](https://ibm.box.com/s/rdlog2sue79178816s0rabkbi7ifu5vg) - A PDF with guidance, links to materials and code, and best practices for Natural Language Classifier.
-- [NLC Redbook](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248391.html) - A large document with some best practices and some example use cases using NLC.  Very big, lots of details.
-- [Create and train a classifier for Watson’s Natural Language Classifier Service](https://developer.ibm.com/videos/create-and-train-a-classifier-for-watsons-natural-language-classifier-service/) - great video by [Ronan Dalton](https://github.com/rodalton) that shows how to create a custom classifier using NLC.
+- [Watson OpenScale Landing Page]() - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.
 
-## OpenScale
-Watson OpenScale allows enterprises to automate and operationalize the AI lifecycle in business applications.  It will help ensure that AI models are free from bias, can be easily explained and understood by business users, and are auditable in business transactions. I OpenScale supports AI models built and run in Watson Studio.  Examples are Watson Machine Learning, Azure ML, Amazon SageMaker, and others.  
+## Watson Personality Insights
+Watson Personality Insights (often abbreviated as PI) derives insights from written and social media data to identify psychological traits which can influence personal decisions, intent and behavioral traits; all of which can be utilized to improve customer interactions, customer engagement, and customer satisfaction.  The service needs samples of a user's written communications, and uses these to build a psychological profile and will identify psychological traits which determine purchase decisions, intent and behavioral traits; which can then be utilized to improve conversion rates.
 
 ### References for Further Reading
-- [Getting Started with OpenScale](https://test.cloud.ibm.com/docs/services/ai-openscale?topic=ai-openscale-gettingstarted#gettingstarted) - The getting started guide.  I STRONGLY recommend going through this, since OpenScale can be a bit tough to wrap your head around at first.
-- [Watson Open Scale Introduction](https://ibm-dte.mybluemix.net/ai-openscale) - this includes a [hands on lab](https://www.ibm.com/cloud/garage/dte/tutorial/trust-and-transparency-your-machine-learning-models-ai-openscale), and will be populating with other materials in the near future.
-- [Watson OpenScale API](https://cloud.ibm.com/apidocs/ai-openscale) - The API reference page.
+- [Watson PI Landing Page]() - our landing page with Watson PI specific links to more general information, best practices, and technical details about the service.
 
-## Personality Insights
-Personality Insights derives insights from written and social media data to identify psychological traits which can influence personal decisions, intent and behavioral traits; all of which can be utilized to improve customer interactions, customer engagement, and customer satisfaction.
-
-### References for Further Reading
-- [Personality Insights API Reference](https://www.ibm.com/watson/developercloud/personality-insights/api/v3/) - The API reference page.
-- [Personality Insights Handbook](https://ibm.box.com/s/nav52vt6q2xwib5zqwupwjf78mxtgems) - A PDF with guidance, links to materials and code, and best practices for Personality Insights.
-- [User Segmentation with Jungian Archetypes](https://ibm.ent.box.com/s/jtnlgbvszf9bn1pakn6fvsiwvas4x8fq) - a slide deck showing how use of Jungian archetypes can help in market segmentation, effectively segmenting users into categories to target communications based on user personality.
-- [Leveraging PI to Predict Consumption Preferences](https://www.ibm.com/blogs/watson/2016/10/leveraging-personality-predict-consumption-preferences/) - a paper describing how Personality Insights can be used to help predict what people will choose to consume, based on their personality.
-- [25 Tweets to Know You: A New Model to Predict Personality with Social Media](https://arxiv.org/abs/1704.05513) - a paper describing the science behind the Personality Insights service.
-
-**Code**
-- [Personality Insights with Twitter](https://github.com/watson-developer-cloud/personality-insights-twitter-python) - This sample shows how to get Twitter data using the Twitter REST API (via the python-twitter client library) and submit it to the Personality Insights Service.
-- [Your Celebrity Match](https://github.com/watson-developer-cloud/your-celebrity-match) - a sample application that does an analysis of your Twitter traffic, and matches you to a variety of celebrities, based on personality, needs and values.
-
-## Speech to Text and Text to Speech (STT/TTS)
-Speech to Text (STT) and Text to Speech (TTS) are well understood capabilities, so no use in going into a boring explanation.  These are often coupled with [Natural Language Understanding (NLU)](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#natural-language-understanding-nlu) or [Assistant](https://github.com/dtoczala/watson-landing-page#watson-assistant-formerly-conversation), to help form compelling cognitive applications.
+## Watson Speech (STT/TTS)
+Watson Speech services include both Speech to Text (STT) and Text to Speech (TTS).  These are well understood capabilities, so no use in going into a long and boring explanation.  They convert spoken word to text, and text to spoken word.  There is support for [multiple different languages](https://cloud.ibm.com/docs/services/speech-to-text?topic=speech-to-text-models) - and this is expanding over time, so if your target language isn't supported today, contact someone and see if it is on the roadmap to be supported in the future.  Watson Speech services are often coupled with [Watson Natural Language Understanding (NLU)](#watson-natural-language-understanding-nlu) or [Watson Assistant](#watson-assistant), to help form compelling cognitive applications.
 
 Often latency can be an issue with STT, and is is HIGHLY recommended that you you use Web Sockets for your data transfer when using STT.  It greatly reduces the latency (as compared to http).
 
 ### References for Further Reading
-- [Speech to Text (STT) API Reference](https://www.ibm.com/watson/developercloud/speech-to-text/api/v1/) - The API reference page.
-- [Text to Speech (TTS) API Reference](https://www.ibm.com/watson/developercloud/text-to-speech/api/v1/) - The API reference page.
-- [TTS/STT Redbook](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248388.html) - A large document with some best practices and an example use case using NLU.  Very big, lots of details.
-- [IBM Watson Text to Speech: Neural Voices Generally Available](https://medium.com/ibm-watson/ibm-watson-text-to-speech-neural-voices-added-to-service-e562106ff9c7) - Read about and listen to the newer more natural sounding voices that are available as of July 2019.
-- [IBM STT Model Hits New Milestone](https://www.ibm.com/blogs/watson/2017/03/reaching-new-records-in-speech-recognition/) - no technical information here, but an overview of how STT is done, and how IBM continues to improve it's speech recognition models.
-- [Introducing Diarization](https://www.ibm.com/blogs/watson/2016/12/look-whos-talking-ibm-debuts-watson-speech-text-speaker-diarization-beta/) - announcement of the "diarization" capability in STT that allows you to differentiate between different speakers in an audio passage.
-- [Watson Text to Speech Transformation Play](https://www.youtube.com/watch?v=scwVNHgRrOU&feature=youtu.be) - a video (showing code) which shows examples of modifications of speaker, tone, pitch, voice, and emotion, in Watson text-to-speech.
-- [Experimental: IBM's Voice Agent with Watson and Twillio](https://developer.ibm.com/recipes/tutorials/ibms-voice-agent-with-watson-and-twilio/) - video shows the new IBM Voice Agent (which uses Assistant, Speech-to-Text and Text-to-Speech) integrated with Twillio, to create a talking chatbot.
-- [Data Collection and Training for Speech Projects](https://medium.com/ibm-watson/data-collection-and-training-for-speech-projects-22004c3e84fb) - great article with a step-by-step approach to training your speech based applications.
+- [Watson Speech Landing Page]() - our landing page with Watson Speech specific links to more general information, best practices, and technical details about the service.
 
-**Code**
-- [Simple Node.js STT App](https://github.com/watson-developer-cloud/speech-to-text-nodejs) - A simple starter app in Node.js that utilizes the Speech to Text service.
-- [Simple Python/WebSockets STT App](https://github.com/watson-developer-cloud/speech-to-text-websockets-python) - A simple starter app in Python, using WebSockets, that utilizes the Speech to Text service.
-- [A Postman Collection for Training IBM Watson Speech to Text](https://medium.com/@ptuton/a-postman-collection-for-training-ibm-watson-speech-to-text-dfdda0c424f0) - a collection of Postman instructions and directions for using them, written by [Peter Tuton](https://github.com/ptuton), that you can use to customize a language model and an acoustic model for your improved Speech-to-Text service.
-
-**Testing**
-- [Testing Strategies For Speech Applications](https://medium.com/ibm-watson/testing-strategies-for-speech-applications-4aebfedc4b4f) - make sure that you are testing your speech applications adequately.  Andrew Freed has some good approaches to doing testing in this area - it is not as easy as it sounds (pun intended).
-
-
-## Tone Analyzer
-Tone Analyzer leverages cognitive linguistic analysis to identify a variety of tones at both the sentence and document level. This insight can then used to refine and improve communications. It detects two types of tones, emotion (anger, fear, joy and sadness), and language styles (analytical, confident and tentative) from text.
+## Watson Tone Analyzer
+Watson Tone Analyzer leverages cognitive linguistic analysis to identify a variety of tones at both the sentence and document level. This insight can then used to refine and improve communications. It detects two types of tones, emotion (anger, fear, joy and sadness), and language styles (analytical, confident and tentative) from the input text.
 
 ### References for Further Reading
-- [Tone Analyzer API Reference](https://www.ibm.com/watson/developercloud/tone-analyzer/api/v3/) - The API reference page.
-- [Service Changes to Tone Analyzer]() - current as of Spetemebr 2017, this announces the elimination of social tones (openness, conscientiousness, extroversion, agreeableness, and emotional range) which were not used, the combination of the anger and disgust tones (which caused some confusion), and the return of only high scoring tone data.
+- [Watson Tone Analyzer Landing Page]() - our landing page with Watson Tone Analyzer specific links to more general information, best practices, and technical details about the service.
 
-## Tradeoff Analytics
+## Watson Tradeoff Analytics
 This service has been deprecated.  
 
-### References for Further Reading
-None
-
-## Visual Recognition
-The Visual Recognition API is used for vision services.
+## Watson Visual Recognition
+The Watson Visual Recognition API is used for vision services.  The service has a "general" model which it uses to classify things in submitted images.  You can also train the service to recognize more specific items in images.  Be careful, people will sometimes abbreviate this and call it Watson VR - which might give some people that impression that it is a virtual reality service.  It isn't.
 
 Often when doing analysis of pictures, it is useful to "tile" the image, and break it down into smaller chunks.  See the link to the [Visual Recognition Tile Localization](https://github.com/IBM-Bluemix/Visual-Recognition-Tile-Localization) tool, which is a KEY component for segmenting larger images into bite size pieces for Visual Recognition.
 
 ### References for Further Reading
-- [Visual Recognition API Reference](https://www.ibm.com/watson/developercloud/visual-recognition/api/v3/) - The API reference page.
-- [Visual Recognition Command Line Interface](https://developer.ibm.com/dwblog/2017/command-line-tools-watson-visual-recognition/) - doing training and classification can be easier from the command line.
-- [Sharpen Watson Visual Recognition Results](https://www.ibm.com/blogs/bluemix/2017/03/sharpen-watson-visual-recognition-results/) - Great blog by Andy Trice, his blog explains how to use "tile localization" to help your classifiers find details in images, and includes [the code for doing this](https://github.com/IBM-Bluemix/Visual-Recognition-Tile-Localization) on GitHub, which will run on IBM Cloud as-is.
-- [Guidelines for Training Custom Classifiers](https://www.ibm.com/watson/developercloud/doc/visual-recognition/customizing.html) - some basic guidance on training custom classifiers from the online documentation.
-- [Visual Recognition Redbook](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248393.html) - A large document with some best practices and some example use cases using Visual Recognition.  Very big, lots of details.
-- [Chihuahua or Muffin Revisited](https://sodoherty.ai/2017/09/28/chihuahua-or-muffin-revisited/) - funny demo that trains a visual classifier to detect dogs or food.
-
-**Code**
-- [Visual Recgnition with ASP.NET](https://github.com/watson-developer-cloud/visual-recognition-aspnet) - Simple starter application in ASP.NET which uses the IBM Watson Visual Recognition service.
+- [Watson Visual Recognition Landing Page]() - our landing page with Watson Visual Recognition specific links to more general information, best practices, and technical details about the service.
 
 ## Watson Knowledge Studio (WKS)
-The Watson Knowledge Studio is used to teach Watson the language of your domain, creating custom models that identify entities and relationships unique to your industry, in unstructured text. You are able to build your models in a collaborative environment designed for both developers and domain experts, without needing to write code. Use the resulting models in [Watson Discovery](https://github.com/dtoczala/watson-landing-page#discovery), [Natural Language Understanding (NLU)](https://github.com/dtoczala/watson-landing-page#natural-language-understanding-nlu), and Watson Explorer.
+The Watson Knowledge Studio is used to teach Watson the language of your domain, creating custom models that identify entities and relationships unique to your industry, in unstructured text. You are able to build your models in a collaborative environment designed for both developers and domain experts, without needing to write code. Use the resulting models in [Watson Discovery](#watson_discovery), [Watson Natural Language Understanding (NLU)](#watson-natural-language-understanding-nlu), and Watson Explorer.
 
 ### References for Further Reading
-- [Accelerate Watson model development with a rule-based approach](https://developer.ibm.com/tv/accelerate-watson-model-development-rule-based-approach/) - video showing that sometimes machine learning can be complimented by the use of rules in more deterministic patterns found in the content.  This webinar demonstrates this new feature in WKS to define such patterns in such a way that you do not have to be a programmer of regular expressions to define rules and apply them to annotate content with the resulting model.
-- [WKS Hands-On Tutorial](https://ibm-dte.mybluemix.net/supervised-machine-learning) - a hands on lab that will walk you through the capabilities of Watson Knowledge Studio.  Part of the [Digital Technical Engagement (DTE) site](https://ibm-dte.mybluemix.net/) .
+- [Watson Knowledge Studio Landing Page]() - our landing page with Watson Knowledge Studio specific links to more general information, best practices, and technical details about the service.
 
 ## Watson Studio
 Watson Studio is an environment which encompasses a variety of tools, capabilities, and services.  It supports the use of [Jupyter notebooks](https://jupyter.org/) (for Python), [R Studio](https://www.rstudio.com/), Watson Machine Learning, and other machine learning technologies (like TensorFlow, Caffe, and Keras).  The Watson Studio environment will allow you to clean and prepare data, and then use that data to build a variety of different types of machine learning models which can then be used to help provide some level of business intelligence and analytics capability.
 
-The [Jupyter Python](https://jupyter.org/) environment is the one that I am most familiar with.  The experience in Watson Studio is comparable to what you get when running on your own local machine.  You can share and collaborate on your work with other team memebrs, and you have the ability to easily develop your Python code and access a wide variety of IBM Cloud resources, from Watson services, to IBM Cloud data storage solutions, to various database services on the IBM Cloud.  
+The [Jupyter Python](https://jupyter.org/) environment is the one that I am most familiar with.  The experience in Watson Studio is comparable to what you get when running on your own local machine.  You can share and collaborate on your work with other team members, and you have the ability to easily develop your Python code and access a wide variety of IBM Cloud resources, from Watson services, to IBM Cloud data storage solutions, to various database services on the IBM Cloud.  
 
 ### References for Further Reading
-- [Watson Studio and Watson Knowledge Catalog Documentation](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/overview-ws.html) - an ordered set of links to materials to help you get started with Watson Studio.
-- [Build a custom model with Watson Visual Recognition Object Detection](https://www.youtube.com/watch?reload=9&v=3gxMBtvsRFo&amp=&t=10s) - nice video (about 9 minutes) showing how you can train a custom model for Watson [Visual Recognition](https://github.com/dtoczala/watson-landing-page#visual-recognition) in Watson Studio.
-- [A Visual Intro into NumPy](https://jalammar.github.io/visual-numpy/?utm_source=hackernewsletter&utm_medium=email&utm_term=data) - since we use a lot of Python in Watson Studio, you should be familiar with Python and NumPy is one of the basic Python libraries that EVERYONE uses.
-- [Watson Machine Learning within the Data Science Experience](https://developer.ibm.com/dwblog/2017/watson-machine-learning-within-ibm-data-science-experience/#main) - a blog post which walks you through setting up a machine learning model for a predictive retail use case.  Walks you through the entire process.  Some of this is out of date, it mentions the Data Science Experience (DSX), which was the predecessor of Watson Studio.
-- [Data Science Community](https://community.ibm.com/community/user/watsonstudio/home) - a good place to grab tutorials, data sets (yes - real data sets), articles, and notebooks.  Nice place to grab things to get you started.
+- [Watson Studio Landing Page]() - our landing page with Watson Studio specific links to more general information, best practices, and technical details about the service.
 
 ---
 # Common Use Cases
-This section will cover some of the basic patterns and cognitive use cases that are implemented using the Watson services.  Ryan Anderson has a blog post on [common design patterns and use cases for cognitive development](https://www.linkedin.com/pulse/cognitive-bucket-list-leveraging-design-patterns-value-ryan-anderson) which I suggest you take 5 minutes to read.
+This section will cover some of the basic patterns and cognitive use cases that we have seen implemented using the Watson services.  Ryan Anderson has a blog post on [Leveraging Cognitive Design Patterns for Enterprise Value Creation](https://www.linkedin.com/pulse/cognitive-bucket-list-leveraging-design-patterns-value-ryan-anderson/) which I suggest you take 5 minutes to read.  It's an older article, but a lot of it still rings true.  Ryan is a smart guy - he has a lot of good ideas here.
 
 ## Chatbots
 
-Chatbots are popular right now, and they can help serve a real purpose.  Many customers use them for customer care and customer support scenarios.  They have been integrated into a number of different communications channels, and they can often do the repetitive work associated with common customer questions and requests.
+Chatbots are popular right now, and they can help serve a real purpose.  Many customers use them for customer care and customer support scenarios.  They have been integrated into a number of different communications channels, and they can often do the repetitive work associated with common customer questions and requests.  Some are deplopyed as internal facing, support functions.  Some are customer facing.
 
 ### References for Further Reading
-- [The Bots are Coming](https://medium.com/@snrubnomis/the-bots-are-coming-b0fa71475381) - an interesting overview on what is important to remember when you begin to build out your chatbot.  Quick read - good perspective.
-- [Short-tail, Long-tail, and Human-tail Chatbots](http://fredrikstenbeck.com/short-tail-long-tail-and-human-tail-chatbot/) - I don't agree with EVERYTHING this guy says, but he lays out a nice, quick explanation of the various depths/degrees that chatbots get to.  A good way to explain the difference between short-tail and long-tail questions.
-- [Build a Wikipedia Factoid Bot](https://medium.com/@biosopher/wikipedia-factoid-bot-1-of-6-intro-and-configure-demo-code-884d6c2ac35e\#.zex5raoru) - a six part series taking you through building a factoid bot based on [Wikipedia](https://www.wikipedia.org/), which also shows an integration with the Watson Alchemy service.
+- [The Bots are Coming](https://medium.com/@snrubnomis/the-bots-are-coming-b0fa71475381) - an interesting overview on what is important to remember when you begin to build out your chatbot.  Quick read, great general guidance and good perspective.
+- [Short-tail, Long-tail, and Human-tail Chatbots](http://fredrikstenbeck.com/short-tail-long-tail-and-human-tail-chatbot/) - We don't agree with EVERYTHING this guy says, but he lays out a nice, quick explanation of the various depths/degrees that chatbots get to.  A good way to explain the difference between short-tail and long-tail questions.
 - [Build an IT Support Chatbot with Watson Assistant](https://www.ibm.com/cloud/garage/tutorials/watson_conversation_support) - great tutorial and guide for building your first chatbot.
-- [Build a Chatbot That Cares](https://medium.com/ibm-watson-developer-cloud/build-a-chatbot-that-cares-part-1-d1c273e17a63\#.h9ahlfoh1) - nice series on building an IOT chatbot using the Coversation, Tone Analyzer, Speech-to-Text and Text-to-Speech services.
-- [Build a Chatbot with Watson and Spoontacular](https://medium.com/ibm-watson-developer-cloud/how-to-build-a-recipe-slack-bot-using-watson-conversation-and-spoonacular-api-487eacaf01d4\#.xxt6vwknl) - another chatbot tutorial that builds a chatbot using Watson Assistant and the Spoontacular API.
-- [Chatbot with Conversation, NLU and Weather](https://developer.ibm.com/dwblog/2017/chatbot-watson-conversation-natural-language-understanding-nlu/) - developerWors article that walks you through setting up and cloning a project that will build a chatbot that uses Assistant, NLU and Weather.  Good example and you can poke through the code.
-- [10 Steps to Train a Chatbot and its Machine Learning Models to Maximize Performance](
-https://developer.ibm.com/dwblog/2016/10-steps-train-chat-bot-chatbot-machine-learning/) - this outlines the methodology for training chatbots and the associated machine learning models to maximize performance. Although presented in the context of chatbots due to their high popularity, the methodology applies to all cognitive solutions, not just chatbots.
+- [Build a Chatbot That Cares](https://medium.com/ibm-watson-developer-cloud/build-a-chatbot-that-cares-part-1-d1c273e17a63\#.h9ahlfoh1) - nice series on building an IOT chatbot using the Coversation, Tone Analyzer, Speech-to-Text and Text-to-Speech services.  Uses the [TJBot](https://ibmtjbot.github.io/) which is based on a Raspberry Pi - one of our favorite DIY platforms.
+- [Chatbot with Conversation, NLU and Weather](https://developer.ibm.com/dwblog/2017/chatbot-watson-conversation-natural-language-understanding-nlu/) - developerWors article that walks you through setting up and cloning a project that will build a chatbot that uses Assistant, NLU and Weather.  Good example and you can poke through the code.  Be aware , this is beginning to get a bit dated....
+
+# STOPPED EDITING HERE - PICK UP FROM HERE
 
 ## Customer Care
 
