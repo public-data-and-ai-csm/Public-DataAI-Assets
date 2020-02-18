@@ -25,8 +25,8 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Service or Product
 
-- Watson Assistant
-- Watson Discovery
+- **[Watson Assistant](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html)** -  a landing page with links to great technical content focused on Watson Assistant.
+- **[Watson Discovery](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Discovery.html)** -  a landing page with links to great technical content focused on Watson Discovery.
 - Watson Speech
 - Watson Language Translation
 - Watson Knowledge Studio
