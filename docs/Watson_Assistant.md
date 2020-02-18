@@ -26,7 +26,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 
 ## Integration
 - [It’s Now Way Easier to Personalize Your Assistant!](https://medium.com/ibm-watson/its-now-way-easier-to-personalize-your-assistant-9a23a9cadd4) - great article by [Mitch Mason](https://medium.com/@mitchellmason) on how to use Webhooks to integrate your own applications with Watson Assistant, and how to use this to add some personality to your chatbot or assistant.
-- [Build a configurable, retail-ready chatbot]https://developer.ibm.com/technologies/artificial-intelligence/patterns/create-cognitive-retail-chatbot/) - this is a good example of integrating usage of Assistant and Discovery, along with some other things.  It includes code as well.
+- [Build a configurable, retail-ready chatbot](https://developer.ibm.com/technologies/artificial-intelligence/patterns/create-cognitive-retail-chatbot/) - this is a good example of integrating usage of Assistant and Discovery, along with some other things.  It includes code as well.
 - [Learn how to export & import a Watson Assistant workspace](https://github.com/rodalton/export-import-wa-workspace) - great little guide done by [Ronan Dalton](https://github.com/rodalton) (with curl examples) of how to migrate your work via API calls from one Watson Assistant workspace to another.  We like Ronan - he comes up with some really great stuff.
 - [Watson Conversation: How to Manage Workspaces](https://www.ibm.com/blogs/bluemix/2017/04/watson-conversation-manage-workspaces/) - great article and [code for a Watson Assistant workspace management tool](https://github.com/data-henrik/watson-conversation-tool).
 
