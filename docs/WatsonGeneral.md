@@ -2,7 +2,8 @@
 Cognitive computing can be complex, but we're here to help you make sense of it.  This is a technically focused set of pages that will allow you to explore the technology, see the latest best practices, and help you master cognitive application development.
 # Contents
 - **[Introduction](#introduction---getting-started)**
-- **[Watson Services and APIs](watson-services-and-apis)**
+  - [The IBM Cloud](#the-ibm-cloud)
+- **[Watson Services and APIs](#watson-services-and-apis)**
   - [Watson Assistant](#watson-assistant)
   - [Watson Discovery](#watson-discovery)
   - [Watson Language Translator](#watson-language-translator)
@@ -18,27 +19,26 @@ Cognitive computing can be complex, but we're here to help you make sense of it.
   - [Watson Studio](#watson-studio)
 - **[Common Use Cases](#common-use-cases)**
   - [Chatbots](#chatbots)
-  - [Customer Care](#customer-care)
   - [Visual Inspection](#visual-inspection)
 - **[Cognitive Development Topics](#cognitive-development-topics)**
   - [General Cognitive Development Information](#general-cognitive-development-information)
   - [Cognitive Architectures](#cognitive-architectures)
   - [The Importance of Data](#the-importance-of-data)
-  - [DevOps with Cognitive on IBM Cloud](#devops-with-cognitive-on-bluemix)
+  - [DevOps with Cognitive on IBM Cloud](#devops-with-cognitive-on-ibm-cloud)
   - [Testing Approaches and Methods](#testing-approaches-and-methods)
   - [Watson/IBM Cloud Security Concerns](#watsonibm-cloud-security-concerns)
-- **[Code Development Resources and GitHub Repositories](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#code-development-resources-and-github-repositories)**
-  - [Development Resources](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#development-resources)
-  - [Learning and Training](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#learning-and-training)
-- **[Common Tips and Tricks](https://github.com/dtoczala/watson-landing-page#common-tips-and-tricks)**
-  - [IBM Cloud Tips and Tricks](docs/ibm_cloud_tipstricks.md)
-  - [Staying Aware of Watson and Cloud Best Practices](https://github.com/dtoczala/watson-landing-page/blob/master/README.md#staying-aware-of-watson-and-cloud-best-practices)
+- **[Code Development Resources and GitHub Repositories](#code-development-resources-and-github-repositories)**
+  - [Development Resources](#development-resources)
+  - [Learning and Training](#learning-and-training)
+- **[Common Tips and Tricks](#common-tips-and-tricks)**
+  - [IBM Cloud Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/ibm_cloud_tipstricks.html)
+  - [Staying Aware of Watson and Cloud Best Practices](#staying-aware-of-watson-and-cloud-best-practices)
 
 ---
 # Introduction - Getting Started
 
-## The Watson Developer Cloud
-The Watson Developer Cloud (WDC) is the collection of cogntive services hosted on the [IBM Cloud](https://cloud.ibm.com/) platform.  They are available as cloud based services.  These services include all of the services listed below.  Many of these services can also be used in an "on premisis" mode, with the use of IBM Cloud Packs.  These pages cover the bvasics about these services,m and will get into some technical detail - most of which also apply to these services on other platforms. (like the IBM Cloud Packs).
+## The IBM Cloud
+Watson is the collection of cogntive services hosted on the [IBM Cloud](https://cloud.ibm.com/) platform.  They are available as cloud based services.  These services include all of the services listed below.  Many of these services can also be used in an "on premises" mode, with the use of IBM Cloud Packs.  These pages cover the basics about these services, and will get into some technical detail - most of which also apply to these services on other platforms (like the IBM Cloud Packs).
 
 ### References for Further Reading
 - [IBM Cloud Account Setup](https://cloud.ibm.com/docs/account?topic=account-account_setup#account_setup) - A simple set of guidelines for getting started.
@@ -74,7 +74,14 @@ This can also be used in conjunction with custom annotation/ontology models deve
 Another interesting feature of Discovery is that it comes preinstalled with a Watson News data set.  This is a public data set of the news, with approximately 300,000 articles and blogs daily, that is pre-enriched with cognitive insights. This results in a data set of primarily English language news sources that is updated continuously. You can use the Discovery News capability to query this data set for insights that you can integrate directly into your application.
 
 ### References for Further Reading
-- [Watson Discovery Landing Page]() - our landing page with Watson Assistant specific links to more general information, best practices, and technical details about the service.  
+- [Watson Discovery Landing Page]() - our landing page with Watson Discovery specific links to more general information, best practices, and technical details about the service.  
+
+## Language Translator
+From translating documents, apps, and websites to creating multilingual chatbots, what will you build? Instantly translate your content into multiple languages. Add on to your base translation model via corpus customization; which allows you to create your own translation models which account for regional or industry-specific terms. 
+
+### References for Further Reading
+- [Watson Translator Landing Page]() - our landing page with Watson Translator specific links to more general information, best practices, and technical details about the service.  
+
 
 ## Watson Natural Language Understanding (NLU)
 The Natural Language Understanding (NLU) service allows you to analyze text to extract meta-data from supplied content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles.  It also has the capability to be used in conjunction with custom annotation models developed using Watson Knowledge Studio, enabling you to identify industry/domain specific entities and relations in unstructured text.
