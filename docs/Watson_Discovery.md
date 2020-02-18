@@ -13,5 +13,5 @@ This is a "landing page" for Watson Discovery.  Look here for links to high valu
 - [Finding Custom Models in Discovery](https://dtoczala.wordpress.com/2019/09/12/finding-custom-models-in-watson-discovery/) - a quick bit of Python code that tells you where you have custom models applied in your Discovery instance.  Nice example of using the Python SDK.
 
 ## Integration
-- [Build a configurable, retail-ready chatbot]https://developer.ibm.com/technologies/artificial-intelligence/patterns/create-cognitive-retail-chatbot/) - this is a good example of integrating usage of Assistant and Discovery, along with some other things.  It includes code as well.
+- [Build a configurable, retail-ready chatbot](https://developer.ibm.com/technologies/artificial-intelligence/patterns/create-cognitive-retail-chatbot/) - this is a good example of integrating usage of Assistant and Discovery, along with some other things.  It includes code as well.
 
