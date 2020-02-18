@@ -31,7 +31,6 @@ Cognitive computing can be complex, but we're here to help you make sense of it.
   - [Development Resources](#development-resources)
   - [Learning and Training](#learning-and-training)
 - **[Common Tips and Tricks](#common-tips-and-tricks)**
-  - [IBM Cloud Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/ibm_cloud_tipstricks.html)
   - [Staying Aware of Watson and Cloud Best Practices](#staying-aware-of-watson-and-cloud-best-practices)
 
 ---
