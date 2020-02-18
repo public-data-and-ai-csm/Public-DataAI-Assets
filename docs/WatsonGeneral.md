@@ -63,7 +63,8 @@ The second part handles Entities.  Entities provide specific information that yo
 Once intents and entities are defined in the Assistant service, it is the third part, called Dialog, that actually orchestrates the conversation based on extracted intents and entities, as well as context provided by the application. Context is an extremely important concept as it is the bridge that links the Assistant service to your bot (or application). Any information communicated back and forth between the Assistant service and the bot goes across through the context variables. Dialog consists of a number of user defined nodes where each node executes based on whether its condition is true. Think of each node as an “if” condition where the condition checked is based on a combination of intents, entities, and context variables (or any derived variables). If the condition is true, then the node executes; if not, the flow continues to the next node in the dialog. Please note that the order of the nodes is important as the flow executes top to bottom, left to right.
 
 ### References for Further Reading
-- [Watson Assitant Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html) - our landing page with Watson Assistant specific links to more general information, best practices, and technical details about the service.  
+- [Watson Assitant Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html) - our landing page with Watson Assistant specific links to more general information, best practices, and technical details about the service.
+- (Watson Assistant Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Assistant/) - these are maintained and change over time.  If you have trouble visualizing how the Assistant service is used, or how it provides value for users, check out these resources.
 
 ## Watson Discovery
 The Watson Discovery service helps you gather insights from large amounts of data, similar to a search engine.  The big difference is that the Discovery service doesn't just "look for keywords", it understands concepts as well.  Discovery lets you upload (or ingest) your own enterprise data and then uses its enrichment capabilities to understand the data and gather insights.  You can use Discovery in various use cases such as capturing insights from data as well as question/answer use cases where the corpus consists of a large number of documents and the objective is to find the most relevant answers to a query.
@@ -73,7 +74,8 @@ This can also be used in conjunction with custom annotation/ontology models deve
 Another interesting feature of Discovery is that it comes preinstalled with a Watson News data set.  This is a public data set of the news, with approximately 300,000 articles and blogs daily, that is pre-enriched with cognitive insights. This results in a data set of primarily English language news sources that is updated continuously. You can use the Discovery News capability to query this data set for insights that you can integrate directly into your application.
 
 ### References for Further Reading
-- [Watson Discovery Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Discovery.html) - our landing page with Watson Discovery specific links to more general information, best practices, and technical details about the service.  
+- [Watson Discovery Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Discovery.html) - our landing page with Watson Discovery specific links to more general information, best practices, and technical details about the service.
+- [Watson Discovery Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Discovery/) - these are maintained and change over time.  If you have trouble visualizing how the Discovery service is used, or how it provides value for users, check out these resources.
 
 ## Language Translator
 From translating documents, apps, and websites to creating multilingual chatbots, what will you build? Instantly translate your content into multiple languages. Add on to your base translation model via corpus customization; which allows you to create your own translation models which account for regional or industry-specific terms. 
@@ -89,6 +91,7 @@ It has replaced most of the functionality that was previously exposed in the Alc
 
 ### References for Further Reading
 - [Watson NLU Landing Page]() - our landing page with Watson NLU specific links to more general information, best practices, and technical details about the service.  
+- [Watson NLU Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Natural-Language-Understanding) - these are maintained and change over time.  If you have trouble visualizing how NLU is used, or how it provides value for users, check out these resources.
 
 ## Watson Natural Language Classifier (NLC)
 The Natural Language Classifier service applies cognitive computing techniques to return the best matching classes (typically referred to as intents) for a sentence or phrase. For example, you submit a question and the service returns keys to the best matching intents. You create a classifier instance by providing a set of utterances and a corresponding set of correct intents for each training question. After training, the new classifier can accept new questions or phrases and return the top matches with a probability score for each match.
@@ -97,6 +100,7 @@ This is the same kind of "intent detection" capability that you see in the [Wats
 
 ### References for Further Reading
 - [Watson NLC Landing Page]() - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.  Not a lot of info here, most users of the service are "legacy" users who used this service before the Watson Assistant service was available.
+- [Watson NLC Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Natural-Language-Classifier) - these are maintained and change over time.  If you have trouble visualizing how NLC is used, or how it provides value for users, check out these resources.
 
 ## Watson OpenScale
 Watson OpenScale allows enterprises to automate and operationalize the AI lifecycle in business applications.  It will help ensure that AI models are free from bias, can be easily explained and understood by business users, and are auditable in business transactions. OpenScale supports AI models built and run in Watson Studio.  Examples are Watson Machine Learning, Azure ML, Amazon SageMaker, and others.  
@@ -134,12 +138,14 @@ Often when doing analysis of pictures, it is useful to "tile" the image, and bre
 
 ### References for Further Reading
 - [Watson Visual Recognition Landing Page]() - our landing page with Watson Visual Recognition specific links to more general information, best practices, and technical details about the service.
+- [Watson Visual Recognition Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Visual-Recognition) - these are maintained and change over time.  If you have trouble visualizing how Visual Recognition is used, or how it provides value for users, check out these resources.
 
 ## Watson Knowledge Studio (WKS)
 The Watson Knowledge Studio is used to teach Watson the language of your domain, creating custom models that identify entities and relationships unique to your industry, in unstructured text. You are able to build your models in a collaborative environment designed for both developers and domain experts, without needing to write code. Use the resulting models in [Watson Discovery](#watson_discovery), [Watson Natural Language Understanding (NLU)](#watson-natural-language-understanding-nlu), and Watson Explorer.
 
 ### References for Further Reading
 - [Watson Knowledge Studio Landing Page]() - our landing page with Watson Knowledge Studio specific links to more general information, best practices, and technical details about the service.
+- [Watson Knowledge Studio Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/IBM-Watson-Knowledge-Studio) - these are maintained and change over time.  If you have trouble visualizing how WKS is used, or how it provides value for users, check out these resources.
 
 ## Watson Studio
 Watson Studio is an environment which encompasses a variety of tools, capabilities, and services.  It supports the use of [Jupyter notebooks](https://jupyter.org/) (for Python), [R Studio](https://www.rstudio.com/), Watson Machine Learning, and other machine learning technologies (like TensorFlow, Caffe, and Keras).  The Watson Studio environment will allow you to clean and prepare data, and then use that data to build a variety of different types of machine learning models which can then be used to help provide some level of business intelligence and analytics capability.
