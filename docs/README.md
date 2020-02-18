@@ -27,11 +27,14 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 - **[Watson Assistant](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html)** -  a landing page with links to great technical content focused on Watson Assistant.
 - **[Watson Discovery](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Discovery.html)** -  a landing page with links to great technical content focused on Watson Discovery.
-- Watson Speech
 - Watson Language Translation
+- Watson Natural Language Understanding (NLU)
+- Watson Natural Language Classifier (NLC)
+- Watson OpenScale
+- Watson Personality Insights
+- Watson Speech (STT/TTS)
+- Watson Tone Analyzer
+- Visual Recognition
 - Watson Knowledge Studio
 - Watson Studio
-- Watson Tone and Personality Insights
-
-
 
