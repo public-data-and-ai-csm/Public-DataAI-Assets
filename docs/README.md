@@ -38,3 +38,5 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 - Watson Knowledge Studio
 - Watson Studio
 
+## Talk to An Expert
+Did you know that you can [schedule some time to talk to an IBM Expert](https://www.ibm.com/services/expert-advice/)?  Go and check it out.  They will give you advice on larger more strategic issues with cognitive development and the adoption of cognitive technologies.
