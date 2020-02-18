@@ -30,7 +30,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [Learn how to export & import a Watson Assistant workspace](https://github.com/rodalton/export-import-wa-workspace) - great little guide done by [Ronan Dalton](https://github.com/rodalton) (with curl examples) of how to migrate your work via API calls from one Watson Assistant workspace to another.  We like Ronan - he comes up with some really great stuff.
 - [Watson Conversation: How to Manage Workspaces](https://www.ibm.com/blogs/bluemix/2017/04/watson-conversation-manage-workspaces/) - great article and [code for a Watson Assistant workspace management tool](https://github.com/data-henrik/watson-conversation-tool).
 
-**Code**
+## Code
 - [Watson Assistant API Reference](https://cloud.ibm.com/apidocs/assistant/assistant-v1) - The API reference page.  be aware that there is also an [Assistant V2 API reference page](https://cloud.ibm.com/apidocs/assistant/assistant-v2), which covers the V2 API which does different things than the V1 API.
 - [How to Use Watson Assistant with Webhooks](https://www.youtube.com/watch?v=5z3i5IsBVnk&feature=youtu.be) - great video that covers using Webhooks with Watson Assistant and IBM Cloud Functions.  [Morgan Langlais](https://github.com/modlanglais) also shares some code with you out on GitHub in her [Webhook demo](https://github.com/modlanglais/assistant-webhook-demo) project. 
 - [10 Steps to Train a Chatbot and its Machine Learning Models to Maximize Performance](
