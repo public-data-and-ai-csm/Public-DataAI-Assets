@@ -2,7 +2,7 @@
 
 This is a "landing page" for Watson Language Translation.  Look here for links to high value technical content specific for this service.
 
-### References for Further Reading
+## References for Further Reading
 - [Document Translation Made Easy with Watson Language Translator](https://www.youtube.com/watch?v=NoQr-6KQwEE) - a great video by [Ronan Dalton](https://github.com/rodalton), which takes you through setting up language translator to translate a document from one language to another.  Simple and easy to follow - takes less than 10 minutes.
 - [LT API Reference](https://cloud.ibm.com/apidocs/language-translator) - The API reference page.
 - [LT Documentation](https://cloud.ibm.com/docs/services/language-translator/getting-started.html) 
