@@ -27,12 +27,12 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 - **[Watson Assistant](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html)** -  a landing page with links to great technical content focused on Watson Assistant.
 - **[Watson Discovery](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Discovery.html)** -  a landing page with links to great technical content focused on Watson Discovery.
-- Watson Language Translation
-- Watson Natural Language Understanding (NLU)
-- Watson Natural Language Classifier (NLC)
-- Watson OpenScale
-- Watson Personality Insights
-- Watson Speech (STT/TTS)
+- **[Watson Language Translation](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Translation.html)** - a landing page with links to great technical content focused on Watson Language Translation.
+- **[Watson Natural Language Understanding (NLU)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_NLU.html)** - a landing page with links to great technical content focused on Watson Natural Language Understanding.
+- **[Watson Natural Language Classifier (NLC)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_NLC.html)** - a landing page with links to great technical content focused on Watson Natural Language Classifier.
+- **[Watson OpenScale](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_OpenScale.html)** - a landing page with links to great technical content focused on Watson OpenScale.
+- **[Watson Personality Insights](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Personality.html)** - a landing page with links to great technical content focused on Watson Personality Insights.
+- **[Watson Speech (STT/TTS)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Speech.html)** - a landing page with links to great technical content focused on Watson Speech services - both Speech-to-Text (STT) and Text-to-Speech (TTS).
 - Watson Tone Analyzer
 - Visual Recognition
 - Watson Knowledge Studio
