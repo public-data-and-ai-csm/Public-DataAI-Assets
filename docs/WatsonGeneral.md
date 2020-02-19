@@ -64,7 +64,7 @@ Once intents and entities are defined in the Assistant service, it is the third 
 
 ### References for Further Reading
 - [Watson Assitant Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html) - our landing page with Watson Assistant specific links to more general information, best practices, and technical details about the service.
-- (Watson Assistant Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Assistant/) - these are maintained and change over time.  If you have trouble visualizing how the Assistant service is used, or how it provides value for users, check out these resources.
+- [Watson Assistant Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Assistant/) - these are maintained and change over time.  If you have trouble visualizing how the Assistant service is used, or how it provides value for users, check out these resources.
 
 ## Watson Discovery
 The Watson Discovery service helps you gather insights from large amounts of data, similar to a search engine.  The big difference is that the Discovery service doesn't just "look for keywords", it understands concepts as well.  Discovery lets you upload (or ingest) your own enterprise data and then uses its enrichment capabilities to understand the data and gather insights.  You can use Discovery in various use cases such as capturing insights from data as well as question/answer use cases where the corpus consists of a large number of documents and the objective is to find the most relevant answers to a query.
@@ -81,8 +81,7 @@ Another interesting feature of Discovery is that it comes preinstalled with a Wa
 From translating documents, apps, and websites to creating multilingual chatbots, what will you build? Instantly translate your content into multiple languages. Add on to your base translation model via corpus customization; which allows you to create your own translation models which account for regional or industry-specific terms. 
 
 ### References for Further Reading
-- [Watson Translator Landing Page]() - our landing page with Watson Translator specific links to more general information, best practices, and technical details about the service.  
-
+- [Watson Language Translator Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Translation.html) - our landing page with Watson Language Translator specific links to more general information, best practices, and technical details about the service.  
 
 ## Watson Natural Language Understanding (NLU)
 The Natural Language Understanding (NLU) service allows you to analyze text to extract meta-data from supplied content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles.  It also has the capability to be used in conjunction with custom annotation models developed using Watson Knowledge Studio, enabling you to identify industry/domain specific entities and relations in unstructured text.
@@ -90,7 +89,7 @@ The Natural Language Understanding (NLU) service allows you to analyze text to e
 It has replaced most of the functionality that was previously exposed in the Alchemy Language service.  Users who utilized Alchemy Language in the past are now encouraged to use the Watson NLU service.
 
 ### References for Further Reading
-- [Watson NLU Landing Page]() - our landing page with Watson NLU specific links to more general information, best practices, and technical details about the service.  
+- [Watson NLU Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_NLU.html) - our landing page with Watson NLU specific links to more general information, best practices, and technical details about the service.  
 - [Watson NLU Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Natural-Language-Understanding) - these are maintained and change over time.  If you have trouble visualizing how NLU is used, or how it provides value for users, check out these resources.
 
 ## Watson Natural Language Classifier (NLC)
@@ -99,20 +98,20 @@ The Natural Language Classifier service applies cognitive computing techniques t
 This is the same kind of "intent detection" capability that you see in the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) service - and we encourage new users to use the [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) service instead.  It provides more and better tools for managing and testing yopur classification engine.
 
 ### References for Further Reading
-- [Watson NLC Landing Page]() - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.  Not a lot of info here, most users of the service are "legacy" users who used this service before the Watson Assistant service was available.
+- [Watson NLC Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_NLC.html) - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.  Not a lot of info here, most users of the service are "legacy" users who used this service before the Watson Assistant service was available.
 - [Watson NLC Demos, Videos, and Hands-On Labs](https://www.ibm.com/demos/collection/Watson-Natural-Language-Classifier) - these are maintained and change over time.  If you have trouble visualizing how NLC is used, or how it provides value for users, check out these resources.
 
 ## Watson OpenScale
 Watson OpenScale allows enterprises to automate and operationalize the AI lifecycle in business applications.  It will help ensure that AI models are free from bias, can be easily explained and understood by business users, and are auditable in business transactions. OpenScale supports AI models built and run in Watson Studio.  Examples are Watson Machine Learning, Azure ML, Amazon SageMaker, and others.  
 
 ### References for Further Reading
-- [Watson OpenScale Landing Page]() - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.
+- [Watson OpenScale Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_OpenScale.html) - our landing page with Watson NLC specific links to more general information, best practices, and technical details about the service.
 
 ## Watson Personality Insights
 Watson Personality Insights (often abbreviated as PI) derives insights from written and social media data to identify psychological traits which can influence personal decisions, intent and behavioral traits; all of which can be utilized to improve customer interactions, customer engagement, and customer satisfaction.  The service needs samples of a user's written communications, and uses these to build a psychological profile and will identify psychological traits which determine purchase decisions, intent and behavioral traits; which can then be utilized to improve conversion rates.
 
 ### References for Further Reading
-- [Watson PI Landing Page]() - our landing page with Watson PI specific links to more general information, best practices, and technical details about the service.
+- [Watson PI Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Personality.html) - our landing page with Watson PI specific links to more general information, best practices, and technical details about the service.
 
 ## Watson Speech (STT/TTS)
 Watson Speech services include both Speech to Text (STT) and Text to Speech (TTS).  These are well understood capabilities, so no use in going into a long and boring explanation.  They convert spoken word to text, and text to spoken word.  There is support for [multiple different languages](https://cloud.ibm.com/docs/services/speech-to-text?topic=speech-to-text-models) - and this is expanding over time, so if your target language isn't supported today, contact someone and see if it is on the roadmap to be supported in the future.  Watson Speech services are often coupled with [Watson Natural Language Understanding (NLU)](#watson-natural-language-understanding-nlu) or [Watson Assistant](#watson-assistant), to help form compelling cognitive applications.
@@ -120,7 +119,7 @@ Watson Speech services include both Speech to Text (STT) and Text to Speech (TTS
 Often latency can be an issue with STT, and is is HIGHLY recommended that you you use Web Sockets for your data transfer when using STT.  It greatly reduces the latency (as compared to http).
 
 ### References for Further Reading
-- [Watson Speech Landing Page]() - our landing page with Watson Speech specific links to more general information, best practices, and technical details about the service.
+- [Watson Speech Landing Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Speech.html) - our landing page with Watson Speech specific links to more general information, best practices, and technical details about the service.
 
 ## Watson Tone Analyzer
 Watson Tone Analyzer leverages cognitive linguistic analysis to identify a variety of tones at both the sentence and document level. This insight can then used to refine and improve communications. It detects two types of tones, emotion (anger, fear, joy and sadness), and language styles (analytical, confident and tentative) from the input text.
