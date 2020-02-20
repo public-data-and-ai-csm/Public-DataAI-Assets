@@ -33,10 +33,10 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 - **[Watson OpenScale](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_OpenScale.html)** - a landing page with links to great technical content focused on Watson OpenScale.
 - **[Watson Personality Insights](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Personality.html)** - a landing page with links to great technical content focused on Watson Personality Insights.
 - **[Watson Speech (STT/TTS)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Speech.html)** - a landing page with links to great technical content focused on Watson Speech services - both Speech-to-Text (STT) and Text-to-Speech (TTS).
-- Watson Tone Analyzer
-- Visual Recognition
-- Watson Knowledge Studio
-- Watson Studio
+- **[Watson Tone Analyzer](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Tone.html)** - a landing page with links to some technical content focused on Watson Tone Analyzer.
+- **[Watson Visual Recognition](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Visual.html)** - a landing page with links to some technical content focused on Watson Visual Recognition.
+- **[Watson Knowledge Studio](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_WKS.html)** - a landing page with links to some technical content focused on Watson Knowledge Studio.
+- **[Watson Studio](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Studio.html)** - a landing page with links to some technical content focused on Watson Studio.
 
 ## Talk to An Expert
 Did you know that you can [schedule some time to talk to an IBM Expert](https://www.ibm.com/services/expert-advice/)?  Go and check it out.  They will give you advice on larger more strategic issues with cognitive development and the adoption of cognitive technologies.
