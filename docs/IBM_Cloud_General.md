@@ -49,6 +49,7 @@ The IBM Cloud was once based on [Cloud Foundry](https://www.cloudfoundry.org/) (
 ### References for Further Reading
 - [Lionel's Bluemix Help](http:/ibm.biz/bluemixhelp) - this page is an "unofficial" collection of links done by Lionel Mace.  Nice collection of places to start from.
 - [Beginners Guide to IAM](https://github.com/jamesbeltonIBM/IBMCloudIAM) - a great PDF for you to download and read so you can get started quickly in understanding the IBM Cloud and IAM.
+- [Authentication for your App on the IBM Cloud](https://dtoczala.wordpress.com/2019/11/18/authentication-for-your-app-on-the-ibm-cloud/) - this blog post covers how to authenticate you application, and explains the difference between API Keys, and API Tokens.w
 - [Common Bluemix ID and Billing Questions](https://www.ibm.com/blogs/bluemix/2017/08/common_qa/) - great guide on common Bluemix ID and billing questions with good answers.  We use this a lot.
 - [Managing Resource Groups](https://console.bluemix.net/docs/admin/resourcegroups.html#rgs) - it's just a link to the documentation, but this new feature introduced in November 2017 allows you more freedom and options in organizing your development efforts on the IBM Cloud.
 - [Free Course - Bluemix Essentials](https://developer.ibm.com/courses/all/bluemix-essentials/) - a free introductory course that will help you learn the essential concepts and terminology of the IBM Bluemix platform.
