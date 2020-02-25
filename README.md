@@ -1,3 +1,5 @@
+![PyPI pyversions](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue)
+
 # PUBLIC Watson CSM's Common Collateral
 
 This is a collection of scripts, notebooks, and projects developed by IBM CSMs within the Data & AI organization. The goal of this repository is to capture some best practices and useful tools and utilities, as well as provide a place where people can learn and discover how to make more effective use of the IBM Watson capabilities.
