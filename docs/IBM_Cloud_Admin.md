@@ -19,6 +19,7 @@ This page is still taking shape, but it should always be in an "under constructi
    - [IBM Cloud API's and Core SDKs](#ibm-cloud-apis-and-core-sdks)
    - [Debugging Node.js and Java applications on IBM Cloud](#debugging-nodejs-and-java-applications-on-ibm-cloud)
    - [Staying Aware of Watson and Cloud Best practices](#staying-aware-of-watson-and-cloud-best-practices)
+   - [Finding Training Classes](#finding-training-classes)
 
 ---
 # IBM Cloud Administration
@@ -112,19 +113,10 @@ There are some generic best practices and good habits that we have found make li
 One of the more difficult things to do is debugging a Node.js or Java application in a cloud environment.  This excellent video on [using App Management on Bluemix](https://www.ibm.com/blogs/bluemix/2015/10/advanced-debugging-node-apps-bluemix/) by [Sai Vennam](https://www.ibm.com/blogs/bluemix/author/svennam92gmail-com/) shows you how easy it is to profile and debug your applications on the IBM Cloud platform.  For more information, check out the [App Management documentation](https://console.bluemix.net/docs/manageapps/app_mng.html) on the IBM Cloud.  It's easy to do, requires no additional services, and can be enabled with the switch of a single environment variable.
 
 ## Staying Aware of Watson and Cloud Best practices
-There are some very good sources for current material on best practices with the Watson services.  Often these are published in a few "hotspots", and it's possible for you to monitor these so you are always aware of the latest information.  Here are some RSS feeds to some key "hotspots":
+You should be monitoring the IBM Cloud status support center (https://cloud.ibm.com/unifiedsupport/supportcenter).  
 
-- [RSS feed for Cloud Computing blogs on developerWorks](https://developer.ibm.com/dwblog/category/cloud-computing/feed/)
-- [RSS feed for Cognitive Computing blogs on developerWorks](https://developer.ibm.com/dwblog/category/cognitive-computing/feed/)
+The best way to get notifications of significant IBM Cloiud events is to log into the IBM Cloud with your own IBM Cloud account, click on your "person" icon in the upper right corner of the browser window, and then select [Profile and Settings](https://cloud.ibm.com/user).  Once that screen comes up, click on [Notifications](https://cloud.ibm.com/user/notifications) in the left hand navigation bar.   Now you will be able to select notifications for platform changes, announcements, and all other IBM Cloud communications.
 
-_Note: You can also follow your favorite author by subscribing to an RSS feed for just their content.  The RSS feed follows this format:_
-```
-https://developer.ibm.com/dwblog/author/<author_id>/feed/
-```
-Here are some examples:
-- To follow Dan Toczala's content, use https://developer.ibm.com/dwblog/author/dtoczala/feed/.
-- To follow Joe Kozhaya's content, use https://developer.ibm.com/dwblog/author/kozhaya/feed/
-
-## Finding training Classes
+## Finding Training Classes
 
 A good place to find training and certification courses for the IBM Cloud is on the [Global Knowledge website](https://www.globalknowledge.com/us-en/training/course-catalog/brands/ibm/ibm-cloud/).  Global Knowledge is a certified IBM Training provider, and they also offer certification prepartion.
