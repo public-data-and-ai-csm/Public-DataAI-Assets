@@ -14,4 +14,5 @@ This is a "landing page" for Watson Discovery.  Look here for links to high valu
 
 ## Integration
 - [Build a configurable, retail-ready chatbot](https://developer.ibm.com/technologies/artificial-intelligence/patterns/create-cognitive-retail-chatbot/) - this is a good example of integrating usage of Assistant and Discovery, along with some other things.  It includes code as well.
+- [Extending Your Watson Chatbot](https://medium.com/@dtoczala/entending-your-watson-chatbot-fbd3291e0dd2) - article describing how to enable the Watson Assistant/Watson Discovery integration, allowing you to extend the capabilities of your chatbot to address those "long tail" questions.
 
