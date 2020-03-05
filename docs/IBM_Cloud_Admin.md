@@ -108,7 +108,7 @@ Also be aware that these can be accessed programmatically by using one of the fo
 ## Getting Alert Emails to the Right People
 - On the [Spending Notifications](https://cloud.ibm.com/billing/spending-notifications) screen you can specify multiple email addresses.
 - On the [Account Notifications](https://cloud.ibm.com/account/notifications) screen you can select multiple email addresses for each alert type.
-  On the [Account Profile](https://cloud.ibm.com/account/company-profile) page you can Request a Profile Update, and you can set a single account email for notifications.  I suggest setting it to some email alias or email group, that will then forward emails to a number of people (whomever is in the email group).
+- On the [Account Profile](https://cloud.ibm.com/account/company-profile) page you can Request a Profile Update, and you can set a single account email for notifications.  I suggest setting it to some email alias or email group, that will then forward emails to a number of people (whomever is in the email group).
 
 ## Common Cloud Best Practices and Good Habits
 There are some generic best practices and good habits that we have found make life easier for software development teams working in a Cloud environment.  Here's a quick list of some of the better ones that we have seen:
