@@ -262,7 +262,10 @@ There are also some good tools available to help you in you testing of your Wats
 - [Codeless Test Automation for IBM Watson Chatbots](https://chatbotsmagazine.com/10-minutes-codeless-test-automation-for-ibm-watson-chatbots-d71eac9626d7) - a great 10 minute read that introduces [Botium](https://www.botium.at/), a no-code chatbot testing tool.
 
 ## Watson/IBM Cloud Security Concerns
-There are some very real security implications that you will have to consider when developing applications and systems that use the IBM Cloud, and the Watson services hosted on that cloud.
+There are some very real security implications that you will have to consider when developing applications and systems that use the IBM Cloud, and the Watson services hosted on that cloud.  Many of the "standard" questions that an infosec team will ask, have already been answered by IBM Security teams out on the [Cloud Security Alliance](https://cloudsecurityalliance.org/star/registry/ibm-cloud/) website.
+
+If you are just concerned with [basic application security best practices on the IBM Cloud](https://www.ibm.com/cloud/learn/cloud-security#toc-best-pract-v7bPIzDi), you should look at the [IBM Cloud Security](https://www.ibm.com/cloud/learn/cloud-security) site.  It covers best practices, has information about cloud security risks and threats, frameworks, and checklists.
+
 - **Question:** How do Watson Developer Cloud services handle PII and PHI data?
   - **Answer:** PHI (Personal Health Information) data should NOT be handled by IBM Public Cloud services. PII (Personally Identifiable Information), on the other hand may be okay to send to IBM Cloud services. Watson\ services do not save any data if the user opts-out. If that is NOT sufficient, then the customer has the responsibility of any required de-identifying before sending the data to the Watson services. In certain emergency scenarios, deletion of PII data may be done by IBM team but this is handled on a case-by-case basis (contact Watson Security for any such needs).
 
