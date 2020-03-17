@@ -23,6 +23,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [Using Advanced Dialog Features](https://medium.com/ibm-watson/using-advanced-dialog-features-in-watson-conversation-5c0cea89e9b3) - great article with some tips on how to address some common challenges in Dialog flows, like counters, handling multiple intents, handling topic switches, and using pattern entities.
 - [Pattern for Gathering Information with Conversation](https://ollycox.me/2016/11/18/pattern-for-gathering-information-in-ibm-watson-conversations/) - an example (with code) of gathering multiple pieces of information in a Conversation flow.
 - [Gathering Information with Conversation](https://medium.com/@snrubnomis/gathering-information-with-ibm-watson-conversation-e23887ccbe3d) - a nice example using a pizza ordering use case that demonstrates using "frames" in Conversation to collect a series of inputs from a user.
+- [Using Slots to Gather Information](https://www.youtube.com/watch?v=kMLyKfmO9wI&feature=emb_logo) - YouTube video which goes over using slots in your dialog flow to be able to get specific user information.
 
 ## Integration
 - [It’s Now Way Easier to Personalize Your Assistant!](https://medium.com/ibm-watson/its-now-way-easier-to-personalize-your-assistant-9a23a9cadd4) - great article by [Mitch Mason](https://medium.com/@mitchellmason) on how to use Webhooks to integrate your own applications with Watson Assistant, and how to use this to add some personality to your chatbot or assistant.
