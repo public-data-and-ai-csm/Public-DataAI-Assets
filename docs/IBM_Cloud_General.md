@@ -12,6 +12,7 @@ The structure here is important.  On this page are links for people getting star
    - [IBM Softlayer - an Infrastructure as a Service (IaaS)](#ibm-softlayer---an-infrastructure-as-a-service-iaas)
    - [IBM Cloud Terms and Topologies](#ibm-cloud-terms-and-topologies)
    - [Architecting Cloud Applications](#architecting-cloud-applications)
+   - [Support on the IBM Cloud](#support-on-the-ibm-cloud)
 - **[Infrastructure Sevices and APIs](h#infrastructure-services-and-apis)**
    - [Compute](#compute)
    - [Storage](#storage)
