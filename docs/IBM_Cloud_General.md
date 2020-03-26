@@ -90,6 +90,23 @@ When architecting cloud applications, you need to be aware of the fact that Clou
 - [Developing Node.js Applications on IBM Cloud](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248406.html?Open) - an IBM Redbook which walks through examples of developing Node,js application on the IBM Cloud.
 - [Essentials of Application Development on IBM Cloud](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248374.html?Open) - another IBM Redbook, this one covers some of the basics around application development on the IBM Cloud.  Great for learning those foundational Cloud development skills - and a key piece of preparation for Cloud certification.
 
+## Support on the IBM Cloud
+
+In traditional support scenarios, support comes along with the purchase of product licenses.  How does support work when you are just paying for what you use on the IBM Cloud?  Is my support metered too?  Do I have to pay by the ticket?  No, you don't.  Support on the IBM Cloud looks like this:
+
+If you are like me, you use an unpaid (either trial or free) IBM Cloud account.  You are not paying anything for using it.  For these accounts, you begin with just preliminary support.  It means that you start with just very simple support - no support for the services on the IBM Cloud, just for the Cloud infrastructure itself.
+
+Creating tickets is available to EVERYONE within the context of their own account.  In the context of another account (like most individual user situations), this ability is granted to particular users.  This is done through account management on the IBM Cloud (read more about IAM here).  
+
+Once an account starts to spend money, they get **[BASIC support](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans#basic-support)**.  This gets you 24 x 7 access to the IBM Cloud technical support team through support cases.  Phone and chat are available for these customers, but there are no SLA's (service level agreements), and responses may not be as quick as you might like.  This support is still kind of basic (thus the name).
+
+If you want something a bit more robust, you can pay for **[ADVANCED support](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans#standard-support)**. This gets you 24 x 7 access to the IBM Cloud technical support team through support cases, phone and chat.  There are some specific SLA's for different severity levels of support case.   Responses may not be as detailed as you might want, but IBM Support will give your case some priority.  This is typically what we would suggest for a customer that has one or two production applications deployed or dependent on the IBM Cloud.
+
+If you want something even more robust, you can pay a little more for **[PREMIUM support](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans#premium-support)**.  Premium support gives you the usual access to support tickets, phone and chat.  The SLA's for Premium support are even more responsive than those associated with the Advanced support plan (which is what you would expect).  In addition to better priority and quicker responsiveness, you also get access to IBM experts, which can help you when you are looking at strategic uses of the IBM Cloud.  You will also get an Technical Account Manager assigned to you - and they will help you manage your support tickets, and make sure that the IBM Cloud is providing value to you.  This contribution to your business goals is covewred in. quarterly business reviews.  This is typically what we would suggest to a customer that has a large number of applications either deployed or dependent on the IBM Cloud - where the IBM Cloud is a major part of your IT infrastructure.
+
+### References for Further Reading
+- [Basic, Advanced, and Premium Support plans](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans) - the most up-to-date info on support plans and what to expect - from the IBM Cloud documentation.
+
 ---
 # Infrastructure Services and APIs
 
