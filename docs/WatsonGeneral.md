@@ -55,7 +55,7 @@ In traditional support scenarios, support comes along with the purchase of produ
 
 If you are like me, you use an unpaid (either trial or free) IBM Cloud account.  You are not paying anything for using it.  For these accounts, you begin with just preliminary support.  It means that you start with just very simple support - no support for the services on the IBM Cloud, just for the Cloud infrastructure itself.
 
-Creating tickets is available to EVERYONE within the context of their own account.  In the context of another account (like most individual user situations), this ability is granted to particular users.  This is done through account management on the IBM Cloud (read more about IAM here).  
+Creating tickets is available to EVERYONE within the context of their own account.  In the context of another account (like most individual user situations), this ability is granted to particular users.  This is done through account management on the IBM Cloud ([read more about IAM here](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_General.html#ibm-cloud-identity--access-management-iam)).
 
 Once an account starts to spend money, they get **[BASIC support](https://cloud.ibm.com/docs/get-support?topic=get-support-support-plans#basic-support)**.  This gets you 24 x 7 access to the IBM Cloud technical support team through support cases.  Phone and chat are available for these customers, but there are no SLA's (service level agreements), and responses may not be as quick as you might like.  This support is still kind of basic (thus the name).
 
