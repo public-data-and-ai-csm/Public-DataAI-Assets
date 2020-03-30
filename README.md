@@ -16,9 +16,9 @@ This will demonstrate how to have your [Watson Assistant](https://www.ibm.com/cl
 ### Watson Assistant Instructions
 1. Create a Skill, import from the Content Catalog the intent named `Covid_Case_Count`
 2. Go to Options > Webhook, paste in the URL
-3. Click Add authorization, paste in API Key
+3. Click **Add authorization**, paste in API Key
 4. Create a Dialog node that recognizes this intent
-5. Click on Dialog settings, enable Webhook
+5. Click on **Dialog** settings, enable Webhook
 6. Add parameter `country` (optional `state` and `city`) to call out to webhook (this can either be collected by your Assistant or hard coded in)
 7. In Assistant responds section, if assistant recognizes the return variable, respond with `There are approximately $webhook_result_1.response.result.message confirmed cases of COVID-19. ` This can be formatted to include your search criteria (country, state, or city).
 8. Highly Recommended: Include a disclaimer message in case this data is inaccurate. Something along the lines of: `Please note that this data is sourced from the CDC and World Health Organization but inaccuracies may exist.`
