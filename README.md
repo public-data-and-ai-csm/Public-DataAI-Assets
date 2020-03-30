@@ -8,12 +8,12 @@ This will demonstrate how to have your [Watson Assistant](https://www.ibm.com/cl
 
 ## Instructions
 
-##### Cloud Function Instructions
+### Cloud Function Instructions
 1. Create a new Cloud Function with a NODE.JS runtime
 2. Copy/paste the Javascript code into the Function
 3. Click on `Endpoint`,  copy down the URL from the CURL command (including `blocking=true`) and the API Key
 
-##### Watson Assistant Instructions
+### Watson Assistant Instructions
 1. Create a Skill, import from the Content Catalog the intent named `Covid_Case_Count`
 2. Go to Options > Webhook, paste in the URL
 3. Click Add authorization, paste in API Key
@@ -24,5 +24,5 @@ This will demonstrate how to have your [Watson Assistant](https://www.ibm.com/cl
 8. Highly Recommended: Include a disclaimer message in case this data is inaccurate. Something along the lines of: `Please note that this data is sourced from the CDC and World Health Organization but inaccuracies may exist.`
 8. Include an error message in the `anything_else` such as `Sorry, I'm unable to retrieve this information at this time. Please visit bing.com/covid19 for the latest update.`
 
-##### Try it out
+### Try it out
 Navigate to the right side of Watson Assistant, click on `Try it`, type in "how many cases of COVID-19 are there in Arkansas?" and make sure you get the appropriate response back. You can double check this response with information directly from bing.com/covid19 to ensure it is accurate.
