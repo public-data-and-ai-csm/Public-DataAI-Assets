@@ -27,4 +27,4 @@ This will demonstrate how to have your [Watson Assistant](https://www.ibm.com/cl
 ### Try it out
 Navigate to the right side of Watson Assistant, click on `Try it`, type in "how many cases of COVID-19 are there in Arkansas?" and make sure you get the appropriate response back. You can double check this response with information directly from bing.com/covid19 to ensure it is accurate.
 
-![](https://github.com/preethm/wa-webhook-covid19-count/blob/master/screenshot_544.png)
+![](https://github.com/preethm/wa-webhook-covid19-count/blob/master/screenshot_544.png=250x250)
