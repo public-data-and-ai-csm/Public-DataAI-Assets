@@ -10,7 +10,7 @@ This will demonstrate how to have your [Watson Assistant](https://www.ibm.com/cl
 
 ### Cloud Function Instructions
 1. Create a new Cloud Function with a NODE.JS runtime
-2. Copy/paste the Javascript code into the Function
+2. Copy/paste the Javascript code from `covid19-webhook-function.js` into the Function
 3. Click on `Endpoint`,  copy down the URL from the CURL command (including `blocking=true`) and the API Key
 
 ### Watson Assistant Instructions
