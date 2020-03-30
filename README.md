@@ -21,7 +21,7 @@ This will demonstrate how to have your [Watson Assistant](https://www.ibm.com/cl
 5. Click on **Dialog** settings, enable Webhook
 6. Add parameter `country` (optional `state` and `city`) to call out to webhook (this can either be collected by your Assistant or hard coded in)
 
-![](https://github.com/preethm/wa-webhook-covid19-count/blob/master/screenshot_544.png)
+![](https://github.com/preethm/wa-webhook-covid19-count/blob/master/screenshot_546.png)
 
 7. In Assistant responds section, if assistant recognizes the return variable, respond with `There are approximately $webhook_result_1.response.result.message confirmed cases of COVID-19. ` This can be formatted to include your search criteria (country, state, or city).
 8. Highly Recommended: Include a disclaimer message in case this data is inaccurate. Something along the lines of: `Please note that this data is sourced from the CDC and World Health Organization but inaccuracies may exist.`
