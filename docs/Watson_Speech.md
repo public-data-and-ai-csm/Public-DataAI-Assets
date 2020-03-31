@@ -12,6 +12,7 @@ This is a "landing page" for Watson Speech services.  This includes both Watson 
 
 ## Code
 - [Simple Node.js STT App](https://github.com/watson-developer-cloud/speech-to-text-nodejs) - A simple starter app in Node.js that utilizes the Speech to Text service.
+- [Train a Speech-to-Text Model Code Pattern](https://developer.ibm.com/patterns/customize-and-continuously-train-your-own-watson-speech-service/) - a demo and associated GitHub repo with code which highlights how to build out a specialized model for a Speech-to-Text service.
 - [A Postman Collection for Training IBM Watson Speech to Text](https://medium.com/@ptuton/a-postman-collection-for-training-ibm-watson-speech-to-text-dfdda0c424f0) - a collection of Postman instructions and directions for using them, written by [Peter Tuton](https://github.com/ptuton), that you can use to customize a language model and an acoustic model for your improved Speech-to-Text service.
 
 ## Testing
