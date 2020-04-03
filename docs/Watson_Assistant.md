@@ -12,17 +12,22 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 
 ## Intents
 - [Defining Intents](https://cloud.ibm.com/docs/services/assistant?topic=assistant-intents#intents) - great starter page with video to help you in defining your intents.
+- [How to build intents in your chatbot with Watson Assistant](https://www.youtube.com/watch?v=OPdOCUPGMIQ) - three minutes of YouTube video gold, showing you how to build up your intents.
 - [Compund Questions](https://sodoherty.ai/2017/02/06/compound-questions/) - Nice article on a technique for detecting compound questions.
 - [Watson in the White and Black Room](https://sodoherty.ai/2017/02/10/watson-in-the-black-and-white-room/) - Quick article on understanding Watson confidence scores.
+- [IBM Watson Assistant: Intent Recommendations](https://www.youtube.com/watch?v=64h59KqDY98) - learn how to best improve your Watson Assistant using intent recommendations in this 4 minute YouTube video.
 
 ## Entities
 - [Defining Entities](https://cloud.ibm.com/docs/services/assistant?topic=assistant-entities) - great starter page with video to help you in defining your entities.
 - [Improving Your Intents with Entities](https://sodoherty.ai/2017/01/16/improving-your-intents-with-entities/) - an exploration of how intents and entities work together.
+- [How to build entities in your chatbot with Watson Assistant](https://www.youtube.com/watch?v=o-uhdw6bIyI) - - three minutes of YouTube video showing you how to build up your entities in Watson Assistant.
 
 ## Dialog
 - [Building Dialogs](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-build) - great starter page with video to help you in defining your entities.  It's a long page, but building a dialog can be a complex task.
+- [How to build dialog in your chatbot with Watson Assistant](https://www.youtube.com/watch?v=XkhAMe9gSFU) - in this 15 minute YouTube video, you will see how to create dialog nodes and have them use intents and entities to properly answer your end user questions.
 - [SpEL Language Guide](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref) - Valid expressions in conditions are written in the Spring Expression (SpEL) language.  This is a reference guide for the SpEL language.
 - [Using Advanced Dialog Features](https://medium.com/ibm-watson/using-advanced-dialog-features-in-watson-conversation-5c0cea89e9b3) - great article with some tips on how to address some common challenges in Dialog flows, like counters, handling multiple intents, handling topic switches, and using pattern entities.
+- [Watson Assistant – Advanced dialog tutorial](https://www.youtube.com/watch?v=Z_vmzC0tu60) - an 11 minute YouTube tutorial on using some more advanced techniques, like slots and context variables.
 - [Pattern for Gathering Information with Conversation](https://ollycox.me/2016/11/18/pattern-for-gathering-information-in-ibm-watson-conversations/) - an example (with code) of gathering multiple pieces of information in a Conversation flow.
 - [Gathering Information with Conversation](https://medium.com/@snrubnomis/gathering-information-with-ibm-watson-conversation-e23887ccbe3d) - a nice example using a pizza ordering use case that demonstrates using "frames" in Conversation to collect a series of inputs from a user.
 - [Using Slots to Gather Information](https://www.youtube.com/watch?v=kMLyKfmO9wI&feature=emb_logo) - YouTube video which goes over using slots in your dialog flow to be able to get specific user information.
@@ -33,10 +38,14 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [Learn how to export & import a Watson Assistant workspace](https://github.com/rodalton/export-import-wa-workspace) - great little guide done by [Ronan Dalton](https://github.com/rodalton) (with curl examples) of how to migrate your work via API calls from one Watson Assistant workspace to another.  We like Ronan - he comes up with some really great stuff.
 - [Watson Conversation: How to Manage Workspaces](https://www.ibm.com/blogs/bluemix/2017/04/watson-conversation-manage-workspaces/) - great article and [code for a Watson Assistant workspace management tool](https://github.com/data-henrik/watson-conversation-tool).
 - [Extending Your Watson Chatbot](https://medium.com/@dtoczala/entending-your-watson-chatbot-fbd3291e0dd2) - article describing how to enable the Watson Assistant/Watson Discovery integration, allowing you to extend the capabilities of your chatbot to address those "long tail" questions.
+- [IBM Watson Assistant: Search Skill](https://www.youtube.com/watch?v=ZcgGf8J2Cfw) - a 4 minute video that covers setting up and using a search skill to enable a "longtail" chatbot.
+- [IBM Watson Assistant: Service Desk Integration](https://www.youtube.com/watch?v=pJSCZLQVgCY) - great overview of the Service Desk integration (think Zendesk, Salesforce, etc.), and how to set it up with the Watson Assistant service.
+- [Building voice-enabled cognitive applications with Watson](https://developer.ibm.com/tv/building-voice-enabled-cognitive-applications-with-watson/) - a seven minute video showing how to do the WAVI (Watson Assistant for Voice Interaction) integration, and in this instructional video, we see the integration being done with Twilio.
 
 ## Code
 - [Watson Assistant API Reference](https://cloud.ibm.com/apidocs/assistant/assistant-v1) - The API reference page.  be aware that there is also an [Assistant V2 API reference page](https://cloud.ibm.com/apidocs/assistant/assistant-v2), which covers the V2 API which does different things than the V1 API.
-- [How to Use Watson Assistant with Webhooks](https://www.youtube.com/watch?v=5z3i5IsBVnk&feature=youtu.be) - great video that covers using Webhooks with Watson Assistant and IBM Cloud Functions.  [Morgan Langlais](https://github.com/modlanglais) also shares some code with you out on GitHub in her [Webhook demo](https://github.com/modlanglais/assistant-webhook-demo) project. 
+- [How to Use Watson Assistant with Webhooks](https://www.youtube.com/watch?v=5z3i5IsBVnk&feature=youtu.be) - great video that covers using Webhooks with Watson Assistant and IBM Cloud Functions.  [Morgan Langlais](https://github.com/modlanglais) also shares some code with you out on GitHub in her [Webhook demo](https://github.com/modlanglais/assistant-webhook-demo) project.
+- [IBM Watson Assistant: Webhooks Demo](https://www.youtube.com/watch?v=j8TBqD2rx2o) - see a video of webhooks in action, and an overview of how to set one up so you can integrate with an external website or service.
 - [10 Steps to Train a Chatbot and its Machine Learning Models to Maximize Performance](
 https://developer.ibm.com/dwblog/2016/10-steps-train-chat-bot-chatbot-machine-learning/) - this outlines the methodology for training chatbots and the associated machine learning models to maximize performance. Although presented in the context of chatbots due to their high popularity, the methodology applies to all cognitive solutions, not just chatbots.  Old, but still relevant.
 - [Chatbot with Conversation, NLU and Weather](https://developer.ibm.com/dwblog/2017/chatbot-watson-conversation-natural-language-understanding-nlu/) - developerWorks article that walks you through setting up and cloning a project that will build a chatbot that uses Assistant, NLU and Weather.  Good example and you can poke through the code.
