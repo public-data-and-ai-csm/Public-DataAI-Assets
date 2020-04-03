@@ -302,6 +302,7 @@ This section has a list of great places where you can see working code, find dev
   - [Java SDK](https://github.com/watson-developer-cloud/java-sdk)
   - [Android SDK](https://github.com/watson-developer-cloud/android-sdk)
 - [Code Patterns](https://developer.ibm.com/patterns/) - a series of different code patterns and full solutions to some common problems and use case.  often spans a few different technologies, so this can be a good place to see integrations in action.
+- [Advanced AI Cheat Sheets](https://startupsventurecapital.com/essential-cheat-sheets-for-machine-learning-and-deep-learning-researchers-efb6a8ebd2e5) - these cheat sheets are for Numpy, Keras, Pandas, Matplotlib and others.  VERY Python focused, great cheat sheets.  For the AI engineer who spends a fair amount of time in Python doing their own models and/or data wrangling.
 
 ## Learning and Training
 This section will share a few different learning environments and approaches.  I am always interested in hearing feedback from real people who took any of these courses, indicating how useful and effective they are.
