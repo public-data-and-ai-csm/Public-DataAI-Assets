@@ -1,8 +1,8 @@
-# Watson Assistant Update Tool
+# Watson Assistant Skill Update Tool
 
 ## About
 
-The Watson Assistant Update Tool is a Node.js application that will accept a skill ID, API key, and skill .json file and update your existing skill with changes from the new, uploaded skill.
+The Watson Assistant Skill Update Tool is a Node.js application that will accept a skill ID, API key, and skill .json file and update your existing skill with changes from the new, uploaded skill. It is essentially a UI for the `updateWorkspace()` method with `append=true` as a parameter.
 
 ### Structure
 
