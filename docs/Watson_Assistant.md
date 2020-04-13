@@ -3,9 +3,6 @@
 This is a "landing page" for Watson Assistant.  Look here for links to high value technical content specific for this service.
 
 ## References for Further Reading
-- [Cognitive Class - How to Build a Chatbot](https://cognitiveclass.ai/courses/how-to-build-a-chatbot/) - a Cognitive Class offering that will help you build up and learn how to build your own chatbot.
-- [Watson Assistant Learning Path](https://developer.ibm.com/series/learning-path-watson-assistant/) - this free rersource is geared towards developers looking for some hands on examples and learning activities with Watson Assistant.
-- [Watson Assistant Demos and Tutorials](https://www.ibm.com/demos/collection/Watson-Assistant/) - great collection of materials so you can do some self-guided activities that will help you learn and become familiar with how Watson Assistant works.
 - [Conversational Assistants and Quality with Watson Assistant — Revisited](https://medium.com/@dtoczala/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f) - nice blog post that highlights some best practices for a deployed chatbot with Watson Assistant.  Check out the Python notebook with k-fold testing and intent analysis.  Also note the follow up article [Conversational Assistants and Quality with Watson Assistant — The Measures](https://chatbotslife.com/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f), which explains the metrics.
 - [Managing Your Virtual Agent’s Lifecycle](https://medium.com/ibm-watson/managing-your-virtual-agents-lifecycle-cf6712fa47aa) - article that describes the simple version management within Watson Assistant, as well as an example of the fine-grained access permissions now available in Watson Assistant.
 - [Best Practices for Building and Maintaining a Chatbot](https://medium.com/ibm-watson/best-practices-for-building-and-maintaining-a-chatbot-a8b78f0b1b72) - great article that highlights some of the things that you have to consider when you are building a chatbot that is going to be a REAL chatbot.
@@ -67,3 +64,12 @@ Sorry if this seems like an [Andrew Freed](https://medium.com/@arfreed) fan club
 - [Improve Your Chatbot using Watson Assistant Chat Logs](https://chatbotslife.com/improve-your-chatbot-using-watson-conversation-chat-logs-54a36b671261) - nice article showing you how to use the Assistant chat logs to provide feedback on chatbot performance and operations, and use that information to improve your chatbot.
 - [I love Pandas!](https://sodoherty.ai/2017/04/19/i-love-pandas) - quick but informative blog post on how to use the Python pandas library to analyze your Assistant logs.
 - [Improve your Premium Development Instance with Intent Recommendations](https://github.ibm.com/pratyushsingh/Logs-Retrieval-Watson-Assistant) - Customers using a premium instance of Watson Assistant will get pertinent data for their intent recommendations feature in their production environment. If however, they are using a separate premium instance, or “slot”, for lower development environments they will not be able to see those recommendations in the workspaces/skills on that slot. This script addresses that need to export and import those intent recommendations.  Developed by [Prat Singh](https://github.ibm.com/pratyushsingh).
+
+## Education
+- [Watson Assistant Foundations](https://learn.ibm.com/course/view.php?id=4329) - from the IBM Learn site, this 90 minute online course will provide you with the foundational knowledge that you need.
+- [Designing Conversational Solutions](https://learn.ibm.com/course/view.php?id=4294) - from the IBM Learn site, this 2 hour online course will provide you with the basics about building coversational chatbot solutions.
+- [Cognitive Class - How to Build a Chatbot](https://cognitiveclass.ai/courses/how-to-build-a-chatbot/) - a Cognitive Class offering that will help you build up and learn how to build your own chatbot.
+- [Watson Assistant Learning Path](https://developer.ibm.com/series/learning-path-watson-assistant/) - this free rersource is geared towards developers looking for some hands on examples and learning activities with Watson Assistant.
+- [Watson Assistant Demos and Tutorials](https://www.ibm.com/demos/collection/Watson-Assistant/) - great collection of materials so you can do some self-guided activities that will help you learn and become familiar with how Watson Assistant works.
+
+
