@@ -9,3 +9,8 @@ This is a "landing page" for Watson Studio.  Look here for links to high value t
 - [Watson Studio Video Library](https://dataplatform.cloud.ibm.com/docs/content/wsj/getting-started/videos.html) - a HUGE list of videos that will help you with just about anything that you can think of within Watson Studio.
 - [Data Science Community](https://community.ibm.com/community/user/watsonstudio/home) - a good place to grab tutorials, data sets (yes - real data sets), articles, and notebooks.  Nice place to grab things to get you started.
 - [Python Cheatsheet](https://gto76.github.io/python-cheatsheet/) - this one looks pretty good, if you find others, add the links and let people decide for themselves which one they like.
+
+## Python Notebooks
+- [Get started with Jupyter Notebook and Watson Studio](https://medium.com/@lennartfr/get-started-with-jupyter-notebook-and-watson-studio-c763564952eb) - quick blog post and introduction to Python notebooks in the Watson Studio environment.
+- [Conversational Assistants and Quality with Watson Assistant — Revisited](https://medium.com/@dtoczala/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f) - nice blog post that highlights some best practices for a deployed chatbot with Watson Assistant.  Check out the Python notebook with k-fold testing and intent analysis.  Also note the follow up article [Conversational Assistants and Quality with Watson Assistant — The Measures](https://chatbotslife.com/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f), which explains the metrics.
+
