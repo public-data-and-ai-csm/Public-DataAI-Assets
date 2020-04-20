@@ -28,8 +28,7 @@ class App extends Component {
           <h5>Download the code here: <a href="https://github.com/public-data-and-ai-csm/Public-DataAI-Assets">https://github.com/public-data-and-ai-csm/Public-DataAI-Assets</a></h5>
         </header>
         <div className="bordered">
-          <p><b>Using this tool, existing elements in your skill are preserved, and new elements are added.
-            If any elements in the new data collide with existing elements, the update request fails and you will see an error.</b></p>
+          <p><b>This tool will take an input file (WA skill) and append its differences to the skill you direct it to below. Using this tool, existing elements in your skill are preserved, and new elements are added. If any elements in the new data collide with existing elements, the update request fails and you will see an error.</b></p>
           <p>{this.state.error}</p>
           <form action={uploadUrl + "upload"} method="post" encType="multipart/form-data">
             <p>WARNING: Do NOT use this tool for a production skill. You may setup a copy of the skill and call it "dev" then perform this operation on that skill. Once you verify the changes are accurate, then you can upload to your production skill.</p>
