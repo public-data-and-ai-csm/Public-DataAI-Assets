@@ -71,5 +71,4 @@ Sorry if this seems like an [Andrew Freed](https://medium.com/@arfreed) fan club
 - [Cognitive Class - How to Build a Chatbot](https://cognitiveclass.ai/courses/how-to-build-a-chatbot/) - a Cognitive Class offering that will help you build up and learn how to build your own chatbot.
 - [Watson Assistant Learning Path](https://developer.ibm.com/series/learning-path-watson-assistant/) - this free rersource is geared towards developers looking for some hands on examples and learning activities with Watson Assistant.
 - [Watson Assistant Demos and Tutorials](https://www.ibm.com/demos/collection/Watson-Assistant/) - great collection of materials so you can do some self-guided activities that will help you learn and become familiar with how Watson Assistant works.
-
-
+- [Watson Covid-19 Chatbot Training Path](http://ibmtvdemo.edgesuite.net/software/DAELL/Test/POC/watson_citizen_hub.html) - this learning path is for customers who have deployed a Covid-19 chatbot with IBM, but the learning path and the materials are a good source for ANYONE to come up to speed with Watson Assistant.
