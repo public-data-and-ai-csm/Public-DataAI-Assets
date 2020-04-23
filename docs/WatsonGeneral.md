@@ -144,6 +144,8 @@ Watson Personality Insights (often abbreviated as PI) derives insights from writ
 ## Watson Speech (STT/TTS)
 Watson Speech services include both Speech to Text (STT) and Text to Speech (TTS).  These are well understood capabilities, so no use in going into a long and boring explanation.  They convert spoken word to text, and text to spoken word.  There is support for [multiple different languages](https://cloud.ibm.com/docs/services/speech-to-text?topic=speech-to-text-models) - and this is expanding over time, so if your target language isn't supported today, contact someone and see if it is on the roadmap to be supported in the future.  Watson Speech services are often coupled with [Watson Natural Language Understanding (NLU)](#watson-natural-language-understanding-nlu) or [Watson Assistant](#watson-assistant), to help form compelling cognitive applications.
 
+One of the more recent integrations of speech has been with chatbot and conversational assistants.  There is a [Watson Assistant for Voice Interaction (WAVI)](https://medium.com/ibm-watson/introducing-watson-assistant-for-voice-interaction-e64d04656fde) that will provide a cost effective and intelligent alternative to traditional IVR systems.
+
 Often latency can be an issue with STT, and is is HIGHLY recommended that you you use Web Sockets for your data transfer when using STT.  It greatly reduces the latency (as compared to http).
 
 ### References for Further Reading
