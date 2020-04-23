@@ -17,3 +17,6 @@ This is a "landing page" for Watson Speech services.  This includes both Watson 
 
 ## Testing
 - [Testing Strategies For Speech Applications](https://medium.com/ibm-watson/testing-strategies-for-speech-applications-4aebfedc4b4f) - make sure that you are testing your speech applications adequately.  Andrew Freed has some good approaches to doing testing in this area - it is not as easy as it sounds (pun intended).
+
+## Integrations
+- [Wave Hello to Watson Assistant Voice Interaction, and Goodbye to Complex Phone Trees](0https://medium.com/ibm-watson/wave-hello-to-watson-assistant-voice-interaction-and-goodbye-to-complex-phone-trees-9521c2b8cc85) - nice article by [Preeth](https://medium.com/@preethm) on using the [Watson Assistant for Voice Interaction (WAVI)](https://medium.com/ibm-watson/introducing-watson-assistant-for-voice-interaction-e64d04656fde) integration to eliminate phone trees and annoying IVR systems.
