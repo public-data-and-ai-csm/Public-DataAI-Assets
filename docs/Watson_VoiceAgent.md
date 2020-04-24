@@ -34,6 +34,6 @@ Note: Each of these components (Cloud services) are provisioned over WAVI’s si
 
 ## References for Further Reading
 - [Getting started tutorial](https://cloud.ibm.com/docs/services/voice-agent?topic=voice-agent-getting-started) - a hands-on tutorial to get you started with the solution.
-- [Video with step-by-step instructions](https://developer.ibm.com/tv/building-voice-enabled-cognitive-applications-with-watson/#comments) - if you like video better, try this out.  it's done by Ronan Dalton (we like Ronan) and it's about 7 minutes long.
+- [Video with step-by-step instructions](https://www.youtube.com/watch?v=ztOme26gVuA) - if you like video better, try this out.  it's done by Ronan Dalton (we like Ronan) and it's about 7 minutes long.
 - [Action tags and state variables in the API](https://cloud.ibm.com/docs/services/voice-agent?topic=voice-agent-api-reference) - the documentation which will help you with adding the little things (like hanging up) to your Watson Voice Agent.
 - [Medium announcement of WAVI](https://medium.com/ibm-watson/introducing-watson-assistant-for-voice-interaction-e64d04656fde) - the original announcement on the [IBM Watson channel](https://medium.com/ibm-watson) on Medium.
