@@ -15,3 +15,8 @@ This is a "landing page" for Watson Studio.  Look here for links to high value t
 - [Conversational Assistants and Quality with Watson Assistant — Revisited](https://medium.com/@dtoczala/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f) - nice blog post that highlights some best practices for a deployed chatbot with Watson Assistant.  Check out the Python notebook with k-fold testing and intent analysis.  Also note the follow up article [Conversational Assistants and Quality with Watson Assistant — The Measures](https://chatbotslife.com/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f), which explains the metrics.
 - [Watson Assistant Notebooks](https://cloud.ibm.com/docs/services/assistant?topic=assistant-logs-resources#logs-resources-jupyter-notebooks) - some notebooks around testing and Dialog profiling that you can use to evaluate your chatbots.
 
+## Machine Learning
+
+Some of the value that people get from Watson Studio is the ability to create and use machine learning models for a large number of different reasons.  Some of this may be for predictive analytics, some for just cognitive analysis, and some for just pure data science.
+
+- [An explanation of machine learning models even you could understand](https://thenextweb.com/neural/2020/04/25/machine-learning-models-explained-to-a-five-year-old-syndication/) - If you are interested in HOW machine learning algorithms work, give this a quick read.  You can use AI without knowing some of this "under the covers" stuff - but knowing how the various algorithms work helps with understanding machine learning approaches better.
