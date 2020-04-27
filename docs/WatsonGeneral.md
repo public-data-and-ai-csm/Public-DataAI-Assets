@@ -281,6 +281,7 @@ There are also some good tools available to help you in you testing of your Wats
 - [Testing an Express app with SuperTest, moxios and Jest](https://codewithhugo.com/testing-an-express-app-with-supertest-moxios-and-jest/) - a blog post outlining a good approach for testing your Express based apps.
 - [Jest](https://jestjs.io/) - a simple JavaScript testing framework you can use.  I haven't used it yet, but it comes highly recommended.
 - [Codeless Test Automation for IBM Watson Chatbots](https://chatbotsmagazine.com/10-minutes-codeless-test-automation-for-ibm-watson-chatbots-d71eac9626d7) - a great 10 minute read that introduces [Botium](https://www.botium.at/), a no-code chatbot testing tool.
+- [Announcing the Release of the Voice Agent Tester](https://www.ibm.com/cloud/blog/announcements/announcing-the-release-of-the-voice-agent-tester) - a testing resource to use for testing and improving your voice agent over time.  It uses Watson Voice Gateway and Watson Speech services to test out your solution.
 - [Tutorial: Benchmark Your Chatbot on Watson, Dialogflow, Wit.ai and more](https://medium.com/@floriantreml/tutorial-benchmark-your-chatbot-on-watson-dialogflow-wit-ai-and-more-92885b4fbd48) - [Florian Treml](https://medium.com/@floriantreml) has some interesting things to say about Chatbot testing using [Botium](https://www.botium.at/), and a nice [GitHub repo with code](https://github.com/codeforequity-at/botium-samples-nlpanalytics) to help you implement some testing with [Botium](https://www.botium.at/).
 
 ## Watson/IBM Cloud Security Concerns
