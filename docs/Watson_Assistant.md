@@ -42,6 +42,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [IBM Watson Assistant: Search Skill](https://www.youtube.com/watch?v=ZcgGf8J2Cfw) - a 4 minute video that covers setting up and using a search skill to enable a "longtail" chatbot.
 - [IBM Watson Assistant: Service Desk Integration](https://www.youtube.com/watch?v=pJSCZLQVgCY) - great overview of the Service Desk integration (think Zendesk, Salesforce, etc.), and how to set it up with the Watson Assistant service.
 - [Building voice-enabled cognitive applications with Watson](https://www.youtube.com/watch?v=ztOme26gVuA) - a seven minute video showing how to do the [WAVI (Watson Assistant for Voice Interaction)](https://medium.com/ibm-watson/introducing-watson-assistant-for-voice-interaction-e64d04656fde) integration, and in this instructional video, we see the integration being done with Twilio.
+- [Quickly improve your voice agent with a speech model](https://medium.com/ibm-watson/quickly-improve-your-voice-agent-with-a-speech-model-15f20749cfb) - a great way to rapidly kickstart the use of a custom speech model to help make your chatbot really chat....
 
 ## Code
 - [Watson Assistant API Reference](https://cloud.ibm.com/apidocs/assistant/assistant-v1) - The API reference page.  be aware that there is also an [Assistant V2 API reference page](https://cloud.ibm.com/apidocs/assistant/assistant-v2), which covers the V2 API which does different things than the V1 API.
