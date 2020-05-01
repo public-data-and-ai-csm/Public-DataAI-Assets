@@ -21,3 +21,5 @@ This is a "landing page" for Watson Speech services.  This includes both Watson 
 
 ## Integrations
 - [Wave Hello to Watson Assistant Voice Interaction, and Goodbye to Complex Phone Trees](https://medium.com/ibm-watson/wave-hello-to-watson-assistant-voice-interaction-and-goodbye-to-complex-phone-trees-9521c2b8cc85) - nice article by [Preeth](https://medium.com/@preethm) on using the [Watson Assistant for Voice Interaction (WAVI)](https://medium.com/ibm-watson/introducing-watson-assistant-for-voice-interaction-e64d04656fde) integration to eliminate phone trees and annoying IVR systems.
+- [Quickly improve your voice agent with a speech model](https://medium.com/ibm-watson/quickly-improve-your-voice-agent-with-a-speech-model-15f20749cfb) - a great way to rapidly kickstart the use of a custom speech model to help make your chatbot really chat....
+
