@@ -10,7 +10,7 @@ This is a "landing page" for Watson Discovery.  Look here for links to high valu
 
 ## Code
 - [Sample UI and code pattern for Discovery with Node.js](https://developer.ibm.com/code/patterns/create-an-app-to-perform-intelligent-searches-on-data/) - the demo video is 15 minutes long, and you can just go and grab the code out of GitHub.  Nice way to get yourself kickstarted with using Discovery with Node.js.
-- {learning Code patterns for Discovery use Cases](https://developer.ibm.com/series/learning-path-watson-discovery/) - a Watson developer learning path that helps you get comfortable with using Discovery with your code, and provides some code patterns for most of the common Watson Discovery use-cases.
+- [Learning Code patterns for Discovery use Cases](https://developer.ibm.com/series/learning-path-watson-discovery/) - a Watson developer learning path that helps you get comfortable with using Discovery with your code, and provides some code patterns for most of the common Watson Discovery use-cases.
 - [Finding Custom Models in Discovery](https://dtoczala.wordpress.com/2019/09/12/finding-custom-models-in-watson-discovery/) - a quick bit of Python code that tells you where you have custom models applied in your Discovery instance.  Nice example of using the Python SDK.
 
 ## Integration
