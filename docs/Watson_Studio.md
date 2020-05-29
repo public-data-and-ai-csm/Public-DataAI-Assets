@@ -14,6 +14,7 @@ This is a "landing page" for Watson Studio.  Look here for links to high value t
 - [Get started with Jupyter Notebook and Watson Studio](https://medium.com/@lennartfr/get-started-with-jupyter-notebook-and-watson-studio-c763564952eb) - quick blog post and introduction to Python notebooks in the Watson Studio environment.
 - [Conversational Assistants and Quality with Watson Assistant — Revisited](https://medium.com/@dtoczala/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f) - nice blog post that highlights some best practices for a deployed chatbot with Watson Assistant.  Check out the Python notebook with k-fold testing and intent analysis.  Also note the follow up article [Conversational Assistants and Quality with Watson Assistant — The Measures](https://chatbotslife.com/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f), which explains the metrics.
 - [Watson Assistant Notebooks](https://cloud.ibm.com/docs/services/assistant?topic=assistant-logs-resources#logs-resources-jupyter-notebooks) - some notebooks around testing and Dialog profiling that you can use to evaluate your chatbots.
+- [Visualizing Geospatial Data in Python](https://community.ibm.com/community/user/datascience/blogs/paco-nathan/2020/05/17/viz-geo-data-py) - Nice article on using the [geopandas](https://geopandas.org/) and [geoplot](https://residentmario.github.io/geoplot/index.html) libraries, to visualize map based data.  Really great examples, and a great write up.
 
 ## Machine Learning
 
