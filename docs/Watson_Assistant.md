@@ -20,7 +20,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [Defining Entities](https://cloud.ibm.com/docs/services/assistant?topic=assistant-entities) - great starter page with video to help you in defining your entities.
 - [Improving Your Intents with Entities](https://sodoherty.ai/2017/01/16/improving-your-intents-with-entities/) - an exploration of how intents and entities work together.
 - [How to build entities in your chatbot with Watson Assistant](https://www.youtube.com/watch?v=o-uhdw6bIyI) - - three minutes of YouTube video showing you how to build up your entities in Watson Assistant.
-- [Detecting Names And Locations With Watson Assistant](https://medium.com/ibm-watson/detecting-names-and-locations-with-watson-assistant-e3e1fa2a8427) - noce blog post on using contextual entities to replace functionality that used to pull user names and locations via the @sys-location and @sys-person entities.  You shoukld know this stuff!
+- [Detecting Names And Locations With Watson Assistant](https://medium.com/ibm-watson/detecting-names-and-locations-with-watson-assistant-e3e1fa2a8427) - nice blog post on using contextual entities to replace functionality that used to pull user names and locations via the @sys-location and @sys-person entities.  You shoukld know this stuff!
 
 ## Dialog
 - [Building Dialogs](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-build) - great starter page with video to help you in defining your entities.  It's a long page, but building a dialog can be a complex task.
