@@ -13,6 +13,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [Defining Intents](https://cloud.ibm.com/docs/services/assistant?topic=assistant-intents#intents) - great starter page with video to help you in defining your intents.
 - [How to build intents in your chatbot with Watson Assistant](https://www.youtube.com/watch?v=OPdOCUPGMIQ) - three minutes of YouTube video gold, showing you how to build up your intents.
 - [Compund Questions](https://sodoherty.ai/2017/02/06/compound-questions/) - Nice article on a technique for detecting compound questions.
+- [Handling Multi-Intent Questions in Watson Assistant](https://medium.com/ibm-watson/handling-multi-intent-questions-in-watson-assistant-ccd0c6ea21e1) - great article on how to handle usert utterances with multiple intents (like, "Turn on the lights and play my Funky Jams playlist...") using Watson Assistant.  A technique for the more advanced chatbot builder.
 - [Watson in the White and Black Room](https://sodoherty.ai/2017/02/10/watson-in-the-black-and-white-room/) - Quick article on understanding Watson confidence scores.
 - [IBM Watson Assistant: Intent Recommendations](https://www.youtube.com/watch?v=64h59KqDY98) - learn how to best improve your Watson Assistant using intent recommendations in this 4 minute YouTube video.
 
