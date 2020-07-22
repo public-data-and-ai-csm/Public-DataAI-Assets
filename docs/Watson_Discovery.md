@@ -1,5 +1,11 @@
 # Watson Discovery
 
+# DEPRECATED
+ 
+Please use the **[Watson Apps Community](https://community.ibm.com/community/user/watsonapps/home)**, and the [Discovery Topic Group](https://community.ibm.com/community/user/watsonapps/communities/community-home?CommunityKey=80650291-2ff4-4a43-9ff8-5188fdb9552f) for collecting links to high quality technical enablement materials.
+
+**THE REMAINDER OF THIS PAGE IS NO LONGER MAINTAINED**
+
 This is a "landing page" for Watson Discovery.  Look here for links to high value technical content specific for this service.
 
 ## References for Further Reading
