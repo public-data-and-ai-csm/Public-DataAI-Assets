@@ -1,5 +1,11 @@
 # Watson Speech
 
+# DEPRECATED
+ 
+Please use the **[Watson Apps Community](https://community.ibm.com/community/user/watsonapps/home)**, and the [Watson APIs Topic Group](https://community.ibm.com/community/user/watsonapps/communities/community-home?communitykey=8c142458-ea99-4266-9c82-b4f0eccff834&tab=groupdetails) for collecting links to high quality technical enablement materials.
+
+**THE REMAINDER OF THIS PAGE IS NO LONGER MAINTAINED**
+
 This is a "landing page" for Watson Speech services.  This includes both Watson Speech-to-Text (STT) and Watson Text-to-Speech (TTS).  Look here for links to high value technical content specific for this service.
 
 ## References for Further Reading
