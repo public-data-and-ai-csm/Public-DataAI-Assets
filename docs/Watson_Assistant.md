@@ -1,5 +1,10 @@
 # Watson Assistant
 
+# DEPRECATED
+Please use the [Watson Apps Community](https://community.ibm.com/community/user/watsonapps/home), and the [Assistant Topic Group](https://community.ibm.com/community/user/watsonapps/communities/community-home?communitykey=7a3dc5ba-3018-452d-9a43-a49dc6819633&tab=groupdetails) for collecting links to high quality technical enablement materials.
+
+**THE REMAINDER OF THIS PAGE IS NO LONGER MAINTAINED**
+
 This is a "landing page" for Watson Assistant.  Look here for links to high value technical content specific for this service.
 
 ## References for Further Reading
