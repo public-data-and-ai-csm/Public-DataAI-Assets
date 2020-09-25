@@ -11,3 +11,4 @@ This folder contains a variety of tools, scripts and routines that you can use f
 ### Tools
 
 - **[Watson Assistant Skill Update Tool](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonAssistant/WatsonAssistantSkillUpdate)** - [M. Langlais](https://github.com/modlanglais) - April 2020 - This Node.js app allows you to upload a skill to update your current skill in Watson Assistant without using the API directly. It is essentially a UI for the `updateWorkspace()` method with `append=true` as a parameter.
+- **[Watson Assistant Extract Chat Logs Java Sample](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonAssistant/WatsonAssistantExtractChatLogs)** - [T. Lai](https://github.com/timl1) - Sept 2020 - This Java sample shows you how to call the Watson Assistant V1 API to extract chat logs and write them out to a CSV file 
