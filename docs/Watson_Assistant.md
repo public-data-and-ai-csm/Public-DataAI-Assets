@@ -1,18 +1,18 @@
 # Watson Assistant
 
-# DEPRECATED
 Please use the [Watson Apps Community](https://community.ibm.com/community/user/watsonapps/home), and the [Assistant Topic Group](https://community.ibm.com/community/user/watsonapps/communities/community-home?communitykey=7a3dc5ba-3018-452d-9a43-a49dc6819633&tab=groupdetails) for collecting links to high quality technical enablement materials.
-
-**THE REMAINDER OF THIS PAGE IS NO LONGER MAINTAINED**
 
 This is a "landing page" for Watson Assistant.  Look here for links to high value technical content specific for this service.
 
 ## References for Further Reading
+- [Training Considerations for Chatbots Using Multiple Skills Orchestration](https://medium.com/ibm-data-ai/training-considerations-for-multiple-skills-orchestration-5d33ef7e7936) - **GREAT** article by [Cari Jacobs](https://medium.com/@heyitscari), that digs into orchestrating multiple Assistant skills, and the bet strategies for doing so.  Backed up by real testing data and some actual code, she has done some real work here highlighting some best practices.
+- [Why is it STILL so hard to build a useful chatbot?](https://medium.com/ibm-watson/why-is-it-still-so-hard-to-build-a-useful-chatbot-daa46da6a00e) - announcement of new ACTIONS capabilities in Watson Assistant by [Blake McGregor](https://medium.com/@blakemcgregor).  He covers the basics that you need to know to get started with using actions in Watson Assistant.
 - [Conversational Assistants and Quality with Watson Assistant — Revisited](https://medium.com/@dtoczala/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f) - nice blog post that highlights some best practices for a deployed chatbot with Watson Assistant.  Check out the Python notebook with k-fold testing and intent analysis.  Also note the follow up article [Conversational Assistants and Quality with Watson Assistant — The Measures](https://chatbotslife.com/conversational-assistants-and-quality-with-watson-assistant-revisited-123fb3bb9f1f), which explains the metrics.
 - [Managing Your Virtual Agent’s Lifecycle](https://medium.com/ibm-watson/managing-your-virtual-agents-lifecycle-cf6712fa47aa) - article that describes the simple version management within Watson Assistant, as well as an example of the fine-grained access permissions now available in Watson Assistant.
 - [Best Practices for Building and Maintaining a Chatbot](https://medium.com/ibm-watson/best-practices-for-building-and-maintaining-a-chatbot-a8b78f0b1b72) - great article that highlights some of the things that you have to consider when you are building a chatbot that is going to be a REAL chatbot.
 - [Conversation Redbook](http://www.redbooks.ibm.com/Redbooks.nsf/RedbookAbstracts/sg248394.html) - A large document with some best practices and example use cases using Assistant.  Very big, lots of details, but parts of it are getting to be out of date.
 - [Designing chatbots for failure](https://uxdesign.cc/designing-chatbots-for-failure-3052175f539) - A list of ten good things that you should be considering when you are designing your chatbot experience.  Just getting the right answers and actions isn't enough - you need to communicate effectively with the end-user.
+- [IBM Watson Assistant — Multiple Workspace Orchestration, Part One](https://medium.com/ibm-watson/ibm-watson-conversation-multiple-workspace-orchestration-d51f003f5d11) - an older article (2017) that outlines some of the main strategies for supporting susage of multiple domain skills in a single user facing chatbot.  
 
 ## Intents
 - [Defining Intents](https://cloud.ibm.com/docs/services/assistant?topic=assistant-intents#intents) - great starter page with video to help you in defining your intents.
