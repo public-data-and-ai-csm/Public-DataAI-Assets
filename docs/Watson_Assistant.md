@@ -36,6 +36,9 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [Gathering Information with Conversation](https://medium.com/@snrubnomis/gathering-information-with-ibm-watson-conversation-e23887ccbe3d) - a nice example using a pizza ordering use case that demonstrates using "frames" in Conversation to collect a series of inputs from a user.
 - [Using Slots to Gather Information](https://www.youtube.com/watch?v=kMLyKfmO9wI&feature=emb_logo) - YouTube video which goes over using slots in your dialog flow to be able to get specific user information.
 
+## Action Skills
+- [Actions - An Overview of Building Conversations](https://vimeo.com/470757934) - a 10 minute video that walks through building a simple conversation using Actions.  Good compliment to the [documentation on Action skills](https://cloud.ibm.com/docs/assistant?topic=assistant-actions).
+
 ## Integration
 - [Watson Assistant: Sample Applications Page](https://cloud.ibm.com/docs/assistant?topic=assistant-sample-apps) - the product documentation has some good example applications that you can see in action, and get the code for.  Other good resources here as well.  Definitely worth a look (and I usually don't like the documentation...).
 - [Wave Hello to Watson Assistant Voice Interaction, and Goodbye to Complex Phone Trees](https://medium.com/ibm-watson/wave-hello-to-watson-assistant-voice-interaction-and-goodbye-to-complex-phone-trees-9521c2b8cc85) - nice article by [Preeth](https://medium.com/@preethm) on using the [Watson Assistant for Voice Interaction (WAVI)](https://medium.com/ibm-watson/introducing-watson-assistant-for-voice-interaction-e64d04656fde) integration to eliminate phone trees and annoying IVR systems.
