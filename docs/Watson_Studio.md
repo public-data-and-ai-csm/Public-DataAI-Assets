@@ -21,3 +21,10 @@ This is a "landing page" for Watson Studio.  Look here for links to high value t
 Some of the value that people get from Watson Studio is the ability to create and use machine learning models for a large number of different reasons.  Some of this may be for predictive analytics, some for just cognitive analysis, and some for just pure data science.
 
 - [An explanation of machine learning models even you could understand](https://thenextweb.com/neural/2020/04/25/machine-learning-models-explained-to-a-five-year-old-syndication/) - If you are interested in HOW machine learning algorithms work, give this a quick read.  You can use AI without knowing some of this "under the covers" stuff - but knowing how the various algorithms work helps with understanding machine learning approaches better.
+
+## Data Sets
+
+A lot of machine learning relies on having good data sets.  Most applications have their own data, but if you are looking to show a proof of concept, you may not have access to the data that you are looking for.  That's where other data sets come into play.
+
+- [UC Irvine Repo](https://archive.ics.uci.edu/ml/datasets.php) - a nice open source collection of data sets from University of California at Irvine.
+- [Kaggle](https://www.kaggle.com/datasets) - Ihave a lot of customers who swear by Kaggle - it's got some pretty good data sets.
