@@ -1,10 +1,6 @@
 # Watson Speech
-
-# DEPRECATED
  
-Please use the **[Watson Apps Community](https://community.ibm.com/community/user/watsonapps/home)**, and the [Watson APIs Topic Group](https://community.ibm.com/community/user/watsonapps/communities/community-home?communitykey=8c142458-ea99-4266-9c82-b4f0eccff834&tab=groupdetails) for collecting links to high quality technical enablement materials.
-
-**THE REMAINDER OF THIS PAGE IS NO LONGER MAINTAINED**
+Please also use the **[Watson Apps Community](https://community.ibm.com/community/user/watsonapps/home)**, and the [Watson APIs Topic Group](https://community.ibm.com/community/user/watsonapps/communities/community-home?communitykey=8c142458-ea99-4266-9c82-b4f0eccff834&tab=groupdetails) for collecting links to high quality technical enablement materials.
 
 This is a "landing page" for Watson Speech services.  This includes both Watson Speech-to-Text (STT) and Watson Text-to-Speech (TTS).  Look here for links to high value technical content specific for this service.
 
@@ -22,6 +18,7 @@ This is a "landing page" for Watson Speech services.  This includes both Watson 
 - [A Postman Collection for Training IBM Watson Speech to Text](https://medium.com/@ptuton/a-postman-collection-for-training-ibm-watson-speech-to-text-dfdda0c424f0) - a collection of Postman instructions and directions for using them, written by [Peter Tuton](https://github.com/ptuton), that you can use to customize a language model and an acoustic model for your improved Speech-to-Text service.
 
 ## Testing
+- [New Python Scripts to Measure Word Error Rate on Watson Speech to Text](https://medium.com/@marconoel/new-python-scripts-to-measure-word-error-rate-on-watson-speech-to-text-77ecaa513f60) - nice blog post by [Marco Noel](https://medium.com/@marconoel) on how you can measure the accuracy of your Watson Speech model, with links to a GitHub project with a Pythin script that shows you how to do it.
 - [Testing Strategies For Speech Applications](https://medium.com/ibm-watson/testing-strategies-for-speech-applications-4aebfedc4b4f) - make sure that you are testing your speech applications adequately.  Andrew Freed has some good approaches to doing testing in this area - it is not as easy as it sounds (pun intended).
 - [Announcing the Release of the Voice Agent Tester](https://www.ibm.com/cloud/blog/announcements/announcing-the-release-of-the-voice-agent-tester) - a testing resource to use for testing and improving your voice agent over time.  It uses Watson Voice Gateway and Watson Speech services to test out your solution.
 
