@@ -13,7 +13,7 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Journey 
 
-- **[Cloud Pak Admin Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Cloud_Pak_Admin.html)** - Your organization has decided to move ahead with IBM Cloud Paks - but you are new to Open Shift, new to Cloud Paks, and they just told you that you are the administrator of the environment.  This is where you should start. 
+- **[Cloud Pak Admin Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/CloudPak_Admin.html)** - Your organization has decided to move ahead with IBM Cloud Paks - but you are new to Open Shift, new to Cloud Paks, and they just told you that you are the administrator of the environment.  This is where you should start. 
 - **[Customer Assist (Chatbot) Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Customer_Assist.html)** - This is the typical progression from proof-of-concept to production deployment of a customer assist chatbot.  If you are looking to develop a chatbot, your journey should be similar to the one described here - find out what you need to know.
 - **[Watson Assistant for Voice Interaction (WAVI)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_VoiceAgent.html)** - This is the voice interaction chatbot that most companies would use to replace their IVR solution.
 - **[IBM Cloud Administration](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_Admin.html)** - This has a description of the important aspects of IBM Cloud Administration with links to things that yopu help you quickly set up your IBM Cloud account for cognitive development.
