@@ -13,12 +13,17 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Journey 
 
+#### IBM Cloud Paks
 - **[Cloud Pak Admin Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/CloudPak_Admin.html)** - Your organization has decided to move ahead with IBM Cloud Paks - but you are new to Open Shift, new to Cloud Paks, and they just told you that you are the administrator of the environment.  This is where you should start. 
+
+#### IBM Cloud
+- **[IBM Cloud Administration](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_Admin.html)** - This has a description of the important aspects of IBM Cloud Administration with links to things that yopu help you quickly set up your IBM Cloud account for cognitive development.
+- **[IBM Cloud - Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/ibm_cloud_tipstricks.html)** - this has a couple of tips, but it is a bit out of date.  Got a good tip or trick?  Add it to this landing page!
+
+#### IBM Watson
 - **[Customer Assist (Chatbot) Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Customer_Assist.html)** - This is the typical progression from proof-of-concept to production deployment of a customer assist chatbot.  If you are looking to develop a chatbot, your journey should be similar to the one described here - find out what you need to know.
 - **[Watson Assistant for Voice Interaction (WAVI)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_VoiceAgent.html)** - This is the voice interaction chatbot that most companies would use to replace their IVR solution.
-- **[IBM Cloud Administration](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_Admin.html)** - This has a description of the important aspects of IBM Cloud Administration with links to things that yopu help you quickly set up your IBM Cloud account for cognitive development.
 - **[IBM Watson Developer - Coding Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Coding_Tips_Tricks.html)** - this has some rough standards, some tips, some tricks, and some of the things that developers who are experienced with the Watson services know.  Got a good tip or trick?  Add it to this landing page!
-- **[IBM Cloud - Tips and Tricks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/ibm_cloud_tipstricks.html)** - this has a couple of tips, but it is a bit out of date.  Got a good tip or trick?  Add it to this landing page!
 
 ### By Technology
 
