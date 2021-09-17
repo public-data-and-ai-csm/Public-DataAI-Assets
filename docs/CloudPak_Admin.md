@@ -27,4 +27,4 @@ ipso lorem ipso shinto shrine.
 ipso lorem ipso shinto shrine.
 
 ### References for Further Reading
-- **[Some content]()** - A simple piece of content.
+- **[Monitoring Open Shift in Cloud Pak for Data](https://www.ibm.com/support/pages/node/6174375)** - A nice whitepaper that goes over a couple of simple monitoring use cases, and shows you how to quickly and easily set up monitoring in ANY Cloud Pak/Open Shift environment.  A GREAT place to start your monitoring and alerting jourrney.
