@@ -13,6 +13,7 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Journey 
 
+- **[Cloud Pak Admin Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Cloud_Pak_Admin.html)** - Your organization has decided to move ahead with IBM Cloud Paks - but you are new to Open Shift, new to Cloud Paks, and they just told you that you are the administrator of the environment.  This is where you should start. 
 - **[Customer Assist (Chatbot) Journey Page](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Customer_Assist.html)** - This is the typical progression from proof-of-concept to production deployment of a customer assist chatbot.  If you are looking to develop a chatbot, your journey should be similar to the one described here - find out what you need to know.
 - **[Watson Assistant for Voice Interaction (WAVI)](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_VoiceAgent.html)** - This is the voice interaction chatbot that most companies would use to replace their IVR solution.
 - **[IBM Cloud Administration](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_Admin.html)** - This has a description of the important aspects of IBM Cloud Administration with links to things that yopu help you quickly set up your IBM Cloud account for cognitive development.
@@ -21,10 +22,17 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 ### By Technology
 
-- **[IBM Cloud](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_General.html)** - An overview of some of the things out on the IBM Cloud - not complete, but there is some good general content out here.
+- **[IBM Cloud Paks](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_CloudPak_General.html)** - An overview of some of the things out on the IBM Cloud - not complete, but there is some good general content out here.
+- - **[IBM Cloud](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/IBM_Cloud_General.html)** - An overview of some of the things out on the IBM Cloud - not complete, but there is some good general content out here.
 - **[Watson Services](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/WatsonGeneral.html)** - a general overview of the Watson services
 
 ### By Service or Product
+
+#### IBM Cloud Paks
+
+- **[Content coming....]()** - more info and help on Cloud Paks is coming soon
+
+#### Watson and AI Technologies
 
 - **[Watson Assistant](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Assistant.html)** -  a landing page with links to great technical content focused on Watson Assistant.
 - **[Watson Discovery](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Discovery.html)** -  a landing page with links to great technical content focused on Watson Discovery.
