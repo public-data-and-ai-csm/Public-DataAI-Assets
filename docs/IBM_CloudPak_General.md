@@ -8,7 +8,7 @@ This is a technically focused set of pages that will allow you to explore the te
 - **[Cloud Pak for Security](#cloud-pak-for-security)**
   - **[Guardium](#guardium)**
   - **[MaaS360](#maas360)**
-  - **[QRadar and QRadar on Cloud (QRoC)](#qradar-and-qradar-on-cloud)**
+  - **[QRadar and QRadar on Cloud (QRoC)](#qradar-and-qradar-on-cloud-qroc)**
   - **[Resilient](#resilient)**
   - **[Trusteer](#trusteer)**
   - **[Verify](#verify)**
