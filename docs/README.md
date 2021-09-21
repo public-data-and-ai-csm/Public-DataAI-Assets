@@ -52,6 +52,10 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 - **[Watson Knowledge Studio](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_WKS.html)** - a landing page with links to some technical content focused on Watson Knowledge Studio.
 - **[Watson Studio](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Watson_Studio.html)** - a landing page with links to some technical content focused on Watson Studio.
 
+#### Security Products
+
+- **[Guardium](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium.html)** -  a landing page with links to great technical content focused on Gardium.
+
 ## Talk to An Expert
 Did you know that you can [schedule some time to talk to an IBM Expert](https://www.ibm.com/services/expert-advice/)?  Go and check it out.  They will give you advice on larger more strategic issues with cognitive development and the adoption of cognitive technologies.
 
