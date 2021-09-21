@@ -27,5 +27,12 @@ ipso lorem ipso shinto shrine.
 # Monitoring and Alerting
 Once you have your Cloud Pak for Data environment all set up, you will want to make sure that it stays healthy.  What should you monitor?  How do you want to be alerted about potential issues with your Cloud Pak for Data environment?  You need to merge this monitoring and alerting capability into your existing monitoring capabilities (or create this discipline for your organization).  The health of the environment should be continuously monitored, and potntial responses to issues should be automated where possible.
 
+## Common Issues
+
+Here is a list of some of the more common issues that we have seen, and the workarounds and fixes for these issues.
+
+- Two service pods cyclically failing in your CP4D environment:  diagnostics-cronjob and watchdog-alert-monitoring-cronjob
+  - The cronjob watchdog & diagnostics are in an error state. If you do a delete(restart) on the pods, this will remove the error in the UI.  As these cronjobs are schedule based, and don't impact any of the services, they can be deleted(restart) when there is issue with a specific run of the cronjob.
+
 ### References for Further Reading
 - **[Monitoring Open Shift in Cloud Pak for Data](https://www.ibm.com/support/pages/node/6174375)** - A nice whitepaper that goes over a couple of simple monitoring use cases, and shows you how to quickly and easily set up monitoring in ANY Cloud Pak/Open Shift environment.  A GREAT place to start your monitoring and alerting jourrney.
