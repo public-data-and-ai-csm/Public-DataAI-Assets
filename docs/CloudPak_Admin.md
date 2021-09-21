@@ -6,6 +6,7 @@ This is a technically focused set of pages that will allow you to more quickly e
 - **[User Administration](#user-administration)**
   - **[Authentication and LDAP](#authentication-and-ldap)**
 - **[Monitoring and Alerting](#monitoring-and-alerting)**
+  - **[Common Issues](#common-issues)**
 
 ---
 # Introduction
