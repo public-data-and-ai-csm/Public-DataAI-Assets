@@ -34,7 +34,7 @@ Cloud Pak for Security provides a platform so a customer can manage all of their
 
 ## Guardium
 
-Guardium 
+**[Guardium](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium.html)** will check your databases and data stores, and identify regulated data.  It will use pre-built templates for regulations such as PCI DSS, SOX, HIPAA, etc.  It can then monitor all user and data activity on these data stores, and will adapt to changes in your data that occurs over time.  It can encrypt data at rest, and will manage encryption keys.  It will use advanced analytics to help you take acton against security threats.  **[Guardium](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium.html)** will enforce security policies for your data in real-time, and will integrate with your existing IT and security ecosystem.  **[Guardium](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium.html)** will also support compliance workflows and audit activities.
 
 ## MaaS360
 
@@ -43,6 +43,7 @@ MaaS360
 ## QRadar and QRadar on Cloud (QRoC)
 
 QRadar
+
 
 ## Resilient
 
