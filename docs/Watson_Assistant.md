@@ -35,6 +35,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 - [SpEL Language Guide](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref) - Valid expressions in conditions are written in the Spring Expression (SpEL) language.  This is a reference guide for the SpEL language.
 - [Watson Assistant – Advanced dialog tutorial](https://www.youtube.com/watch?v=Z_vmzC0tu60) - an 11 minute YouTube tutorial on using some more advanced techniques, like slots and context variables.
 - [Gathering Information with Conversation](https://medium.com/@snrubnomis/gathering-information-with-ibm-watson-conversation-e23887ccbe3d) - a nice example using a pizza ordering use case that demonstrates using "frames" in Conversation to collect a series of inputs from a user.
+- [Beyond Coding: Watson Assistant Multiple Conditioned Responses](https://medium.com/ibm-watson/beyond-coding-watson-assistant-multiple-condition-responses-6361c7c69ebf) - a long, but informative, blog post with some great examples of how you can use Watson Assistant to create multiple condition responses, so your chatbot can be more fully functioned and seem more intelligent.  
 - [Using Slots to Gather Information](https://www.youtube.com/watch?v=kMLyKfmO9wI&feature=emb_logo) - YouTube video which goes over using slots in your dialog flow to be able to get specific user information.
 
 ## Action Skills
