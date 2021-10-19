@@ -56,6 +56,9 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 - **[Guardium](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium.html)** -  a landing page with links to great technical content focused on Guardium.
 - **[MaaS360](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/MaaS360.html)** -  a landing page with links to great technical content focused on MaaS360.
+- **[Verify](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Verify.html)** -  a landing page with links to great technical content focused on Verify.
+- **[QRadar](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/QRadar.html)** -  a landing page with links to great technical content focused on QRadar Security Information and Event Management (SIEM).
+- **[X-Force](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/XForce.html)** -  a landing page with links to great technical content focused on X-Force and CloudPak Security Orchestration, Automtion and Response (SOAR). 
 
 ## Talk to An Expert
 Did you know that you can [schedule some time to talk to an IBM Expert](https://www.ibm.com/services/expert-advice/)?  Go and check it out.  They will give you advice on larger more strategic issues with cognitive development and the adoption of cognitive technologies.
