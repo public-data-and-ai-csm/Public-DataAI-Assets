@@ -8,6 +8,10 @@ Guardium Insights is a lightweight-but-powerful platform that can flexibly deplo
 
 Fianlly, you are able to collaborate across the security operations center (SOC) by sharing data security event data with other security platforms and opening cases in IBM Cloud Pak for Security.  Insights doesn't really DO any of the monitoring and protection, but it gathers the audit trails and reports from your other services which DO perform those functions, and puts it into a common format which it can then report on, alert teams to, and search for suspicious patterns.
 
+### Guardium Insights Links
+- [Online Documentation](https://www.ibm.com/docs/en/guardium-insights) - Link to the online documentation
+- [Guardium by Example: SOX Reporting in Guardium Insights](https://community.ibm.com/community/user/security/blogs/john-haldeman/2021/07/24/sox-reporting-in-guardium-insights?CommunityKey=aa1a6549-4b51-421a-9c67-6dd41e65ef85&tab=recentcommunityblogsdashboard) - a great hands-on article with screenshots and examples walking you through doing your SOX reporting using Guardium Insights.
+
 ## Guardium Data Protection
 
 IBM Security Guardium Data Protection supports a zero trust approach to security. It discovers and classifies sensitive data from across the enterprise, providing real-time data activity monitoring and advanced user behavior analytics to help discover unusual activity around sensitive data.  Uncover regulated data in your data stores and use pre-built templates for regulations such as PCI DSS, SOX, HIPAA, GDPR, CCPA and many more, to streamline and automate compliance workflows.  Using a single interface, you can set access policies, monitor user access to protected data and discover, investigate and remediate vulnerabilities and threats as they occur in real time across your data environment.
@@ -27,4 +31,8 @@ To meet compliance requirements, counter insider and external threats and achiev
  IBM Data Risk Manager provides executives and their teams a business-consumable data risk control center that helps to uncover, analyze, and visualize data-related business risks so they can take action to protect their business.  It's a way to visualize and consume everything that the rest of the Guardium products are telling you.
 
 ## References for Further Reading
-- [My linked article](https://cloud.ibm.com) - Some information.
+- [IBM Security Community](https://community.ibm.com/community/user/security/home) - a community focused on cybersecurity - with technical help and information on the latest happenings and thought leadership.  It is worthwhile to visit and join the community if you are focused on security.
+- [The Next Frontier for Data Security: Protecting Data in Use](https://medium.com/@Guardium/the-next-frontier-for-data-security-protecting-data-in-use-692cb0fd5214) - Great blog post and insight on protec ting data in storage, in use, and in transit.  Confidential Computing and Fully Homomorphic Encryption (FHE) are two promising emerging technologies for addressing this concern and enabling organizations to unlock the value of sensitive data.
+- [Data Is Quicksand: Does Your Current Data Security Solution Pull You Out or Sink You Deeper?](https://securityintelligence.com/posts/data-security-solution-quicksand/) - a little bit of a marketing pitch - but data security responsibilities today are often split across data security, compliance and security analyst teams. To solve that issue, you need to connect your various security and IT tools, from the SIEM tool to ticketing.  High level look at everything that you can and should do.
+- [Thoughts From a Data Security Expert: 3 Things That Keep Me Up at Night](https://securityintelligence.com/posts/data-security-expert-problems-night/) - quick article on the top three things that worry a director in charge of data at a major financial company.
+- [What’s New in the 2021 Cost of a Data Breach Report](https://securityintelligence.com/posts/whats-new-2021-cost-of-a-data-breach-report/) - interesting look at some of the statistics and financial impacts of data breaches in 2021.
