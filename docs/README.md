@@ -35,7 +35,8 @@ If you find "broken" links, or links to outdated materials, please be a good cit
 
 #### IBM Cloud Paks
 
-- **[Content coming....]()** - more info and help on Cloud Paks is coming soon
+- **[Cloud Pak for Security](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/CloudPak_for_Security.html)** - more info and help on Cloud Paks is coming soonCloudPak for Security (CP4S).
+- 
 
 #### Watson and AI Technologies
 
