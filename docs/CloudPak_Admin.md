@@ -39,3 +39,12 @@ Here is a list of some of the more common issues that we have seen, and the work
 - **[Monitoring Open Shift in Cloud Pak for Data](https://www.ibm.com/support/pages/node/6174375)** - A nice whitepaper that goes over a couple of simple monitoring use cases, and shows you how to quickly and easily set up monitoring in ANY Cloud Pak/Open Shift environment.  A GREAT place to start your monitoring and alerting jourrney.
 - **[Cloud Pak for Data: Performance Monitoring Best Practices (Part 1)](https://medium.com/ibm-data-ai/cloud-pak-for-data-36ba41d6dd80)** - a great write up on performance monitoring your CloudPak for Data installation.  Covers a lot of the basics of checking up on your install using both the CloudPak Administration views, as well as the OpenShift Container Platform (OCP) console.
 - **[Cloud Pak for Data: Performance Monitoring Best Practices (Part 2)](https://medium.com/ibm-data-ai/cloud-pak-for-data-c5e7946cc4a4)** - continued guidance on how you can use Prometheus to do some more advanced monitoring and alerting with your Cloud Pak for Data installation.
+
+# Administrative Tasks
+When you have Cloud Pak for Data, or any Cloud Pak, you may have some common administrative tasks that you need to do.  Sometimes these can be once a year tyopes of things, sometimes more often.  It's good to have some guidance and best practices on this sort of thing.
+
+## Smaller Installations
+Smaller installations often ahve their own special kinds of questions and concerns.
+
+### References for Further Reading
+- **[Enabling OpenShift 4 Clusters to Stop and Resume Cluster VMs](https://cloud.redhat.com/blog/enabling-openshift-4-clusters-to-stop-and-resume-cluster-vms)** - There are a lot of reasons to stop and resume OpenShift Cluster VMs: like to save money on cloud hosting costs, use a cluster only during daytime hours, or for training purposes.  Learn how to do it right.
