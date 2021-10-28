@@ -15,7 +15,11 @@ QRadar will help customers and organizations address the following use cases:
 
 ## How It Works
 
-QRadar 
+QRadar looks at ***events*** (which come from the logs that QRadar is collecting) and ***flows*** (from the network connections that QRadar has).  These events and flows can be monitored individually, or together, to detect situations where security may be compromised.  These situations are called ***offenses***.  QRadar has a number of rules that are combinations of conditions that should trigger an offense.  So a rule might be something like, "Look at network packets that are delivering email attachments, that have a certain link" (like a phishing email).  When we detect that, we raise an offense.
+
+At an architectural level, you deploy a series of hardware/software appliances.  A single appliance can support everything (All-in-One), if the volumes are low enough.  For most customers, you will need a console server, one or more event collectors, one or more event procesors, and one or more flow collectors.  In addition, you can deploy data processors to help with doing the user searches kicked off from the console server.  The processor and collector nodes can scale to whatever number you need to be able to process the volumes of data you need to process.
+
+In turn, many of the "add-on" capabilities of QRadar can also be deployed on these nodes.  These "add-on" capabilities will often extend the vision and reach of the current QRadar capabilities - often providing either real-time or cognitive capabilities.
 
 ## Qradar on Prem
 
