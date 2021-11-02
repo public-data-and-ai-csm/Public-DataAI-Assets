@@ -5,13 +5,13 @@ Notes on installation of Guardium Insights 3.0.1 on Redhat Opehsnift cluster in 
 
 If any of the following steps fails, please consult the Installation Details at - [See IBM Documentation on Guardium Insights 3.0.x Installation](https://www.ibm.com/docs/en/guardium-insights/3.0.x) <br>
 
-<b> This script covers installing Guardium Insight in an airgapped situation (using bastion).  It will be necesary to prepare copies of tools, installation files, and images for the installation to a bastion host.</b></br>
-If neeeded, refer to documentation for [information on performing an air-gapped installation](https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=pisgi-prepare-your-environment-offline-air-gap-installation-guardium-insights)
+<b> This script covers installing Guardium Insight in an airgapped situation (using bastion).  It will be necesary to prepare copies of tools, installation files, and images for the installation to a bastion host.</b>
 
+If neeeded, refer to documentation for [information on performing an air-gapped installation](https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=pisgi-prepare-your-environment-offline-air-gap-installation-guardium-insights)
 
 ## Pre-deployment Environment Set Up
 ### Workstation prerequisites
-  Ensure required CLI software installed on bastion<br>
+Ensure that the required CLI software is installed on bastion node
 Basic client software required:
 ```
 yum install perl
@@ -74,15 +74,15 @@ At this point you should have the bastion set up with tools to proceed with sett
 
 ## Setting up the cluster for air gapped installation
 
-  IBM documentation for setting up air gapped installation environment:
-```  	
+  IBM documentation for setting up air gapped installation environment: 	
 https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=pisgi-prepare-your-environment-offline-air-gap-installation-guardium-insights
-```
+
   step "h" point to local registry
 
 
   oc login <OCP endpoint> (Workstation must be logged in to the Openshift cluster)
   You must have cluster administrator privileges to run the setup scripts.
+
 ### Set up storage
 To Configure NFS with IBM Cloud File Storage (ibmc-file-gold-gid), run commands 1,2 and 3 on the link below.
 
