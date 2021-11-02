@@ -8,6 +8,28 @@ Guardium Insights is a lightweight-but-powerful platform that can flexibly deplo
 
 Fianlly, you are able to collaborate across the security operations center (SOC) by sharing data security event data with other security platforms and opening cases in IBM Cloud Pak for Security.  Insights doesn't really DO any of the monitoring and protection, but it gathers the audit trails and reports from your other services which DO perform those functions, and puts it into a common format which it can then report on, alert teams to, and search for suspicious patterns.
 
+### Installing Guardium Insights 3.0.1
+These are my notes on installation of Guardium Insights 3.0.1 on ROKS (OpenShift Cluster on IBM Cloud).  This installation is interactive, no Ansible (or similar) scripting is used.  Information regarding scripting may be included in a later revision<br>
+
+#### Hardware and Operating System requirements
+Before beginning the installation of Guardium Insights, you will first need to provision a Redhat Openshift cluster.   
+For Guardium Insights version 3.0.x the version of Openshift needs to be v4.6.x.  <br>
+[View IBM documentation for hardware requirements for Guardium Insights](https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=requirements-openshift-container-platform-base-hardware) <br>
+[View IBM documentation for software requirements for Guardium Insights](https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=planning-system-requirements-prerequisites#sys_req__os)<br>
+
+I have used a very small cluster for testing.  Your cluster may have many more nodes according to sizing requirements.   Consult with your IBM contact and/or [Knowledge Base documentation on sizing](https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=planning-hardware-cluster-requirements) for your specific case. <br>
+
+![Guardium Insights Cluster Requirements](./images/sys_req_hardware_cluster_openshift.gif)
+
+### Entitlement Key
+You will need to get your entitlement key, as described in [Obtain your entitlement key](https://www.ibm.com/docs/en/guardium-insights/3.0.x?topic=installing-prepare-security-guardium-insights#install_prep_insights__entitlement_key).<br>
+
+### Installation instructions
+If any of the following steps fails, please consult the Knowledge Base installation Details at - [See IBM Documentation on Guardium Insights 3.0.x Installation](https://www.ibm.com/docs/en/guardium-insights/3.0.x) <br>
+
+* [Offline (air gapped) installation](Guardium_offline.md) - Follow this link for notes on air-gapped install
+* [Online (connected) installation](Guardium_online.md) - Follow this link for notes on connected install
+
 ### Guardium Insights Links
 - [Online Documentation](https://www.ibm.com/docs/en/guardium-insights) - Link to the online documentation
 - [Guardium by Example: SOX Reporting in Guardium Insights](https://community.ibm.com/community/user/security/blogs/john-haldeman/2021/07/24/sox-reporting-in-guardium-insights?CommunityKey=aa1a6549-4b51-421a-9c67-6dd41e65ef85&tab=recentcommunityblogsdashboard) - a great hands-on article with screenshots and examples walking you through doing your SOX reporting using Guardium Insights.
