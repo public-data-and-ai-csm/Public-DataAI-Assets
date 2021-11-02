@@ -27,8 +27,8 @@ You will need to get your entitlement key, as described in [Obtain your entitlem
 ### Installation instructions
 If any of the following steps fails, please consult the Knowledge Base installation Details at - [See IBM Documentation on Guardium Insights 3.0.x Installation](https://www.ibm.com/docs/en/guardium-insights/3.0.x) <br>
 
-* [Offline (air gapped) installation](Guardium_offline.md) - Follow this link for notes on air-gapped install
-* [Online (connected) installation](Guardium_online.md) - Follow this link for notes on connected install
+* [Offline (air gapped) installation](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium_offline.html) - Follow this link for notes on air-gapped install
+* [Online (connected) installation](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/Guardium_online.html) - Follow this link for notes on connected install
 
 ### Guardium Insights Links
 - [Online Documentation](https://www.ibm.com/docs/en/guardium-insights) - Link to the online documentation
