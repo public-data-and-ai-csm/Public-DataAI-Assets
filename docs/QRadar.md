@@ -21,6 +21,14 @@ At an architectural level, you deploy a series of hardware/software appliances. 
 
 In turn, many of the "add-on" capabilities of QRadar can also be deployed on these nodes.  These "add-on" capabilities will often extend the vision and reach of the current QRadar capabilities - often providing either real-time or cognitive capabilities.
 
+### Tips and Tricks - Things to Remember
+
+- Since even users with ***Admin*** roles cannot edit their own account roles and security profiles, it is always suggested to have at least 3 different users with the Admin role - that way you always have two other people who can modify the account of the third administrator.
+- Define specific ***roles*** for your users, and then assign users to specific roles.  Then you can manage the access for **ALL** users with a certain role, by adjusting the permissions for that user role.  
+- Do the same with security profiles - which provide access to resources.  Be careful to properly assign Permission Preferences - this can severly limit visibility to events, flows, and offenses based on the log source or network.
+- Rule counters are maintained and rules are evaluted for each domain individually.  So be careful in how you specify your domains.
+- 
+
 ## Qradar on Prem
 
 xxx
