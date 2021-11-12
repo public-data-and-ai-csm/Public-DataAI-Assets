@@ -44,7 +44,10 @@ Here is a list of some of the more common issues that we have seen, and the work
 When you have Cloud Pak for Data, or any Cloud Pak, you may have some common administrative tasks that you need to do.  Sometimes these can be once a year tyopes of things, sometimes more often.  It's good to have some guidance and best practices on this sort of thing.
 
 ## Smaller Installations
-Smaller installations often ahve their own special kinds of questions and concerns.
+Smaller installations often have their own special kinds of questions and concerns.
+
+## Auto-upgrades and Pinning Versions
+With any CloudPak, you will have the ability to pin versions of the components deployed within your CloudPak.  Some people will have their configuration indicate that certain pieces should always be at some "latest" level.  DON'T DO THIS.  It's appealing to have your CloudPak infrastructure "auto-upgrade" and stay up-to-date with little or no effort.  The issue is that components don't always upgrade at the same time.  So it is possible to have Component A within a CloudPak to be dependent on core capability W, version 7, while Component B within the same CloudPak has a new version that is also dependent on core capability W, but is reliant on changes made in version 8 of that core capability.  You can read more about the issue, and how to handle it, in this **[technical note](https://github.ibm.com/PrivateCloud-analytics/zen-dev-test-utils/blob/gh-pages/docs/CPD/Freezing-4.0.2.md)**.
 
 ### References for Further Reading
 - **[Enabling OpenShift 4 Clusters to Stop and Resume Cluster VMs](https://cloud.redhat.com/blog/enabling-openshift-4-clusters-to-stop-and-resume-cluster-vms)** - There are a lot of reasons to stop and resume OpenShift Cluster VMs: like to save money on cloud hosting costs, use a cluster only during daytime hours, or for training purposes.  Learn how to do it right.
