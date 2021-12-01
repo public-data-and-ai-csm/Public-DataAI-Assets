@@ -21,7 +21,7 @@ This is a technically focused set of pages that will allow you to explore the te
 ipso lorem ipso shinto shrine.
 
 ### References for Further Reading
-- **[Some content]()** - A simple piece of content.
+- **[Red Hat OpenShift Sandbox](https://developers.redhat.com/developer-sandbox#assembly-field-sections-57831)** - A great sandbox learning environment so you can get used to how OpenShift works.  Important for a lot of Cloud Pak administrators just starting out, since the IBM Cloud Paks are all deployed on top of Red Hat OpenShift.
 
 # Cloud Pak for Data
 ipso lorem ipso shinto shrine.
