@@ -1,6 +1,6 @@
 ![PyPI pyversions](https://img.shields.io/badge/python-3.5%20%7C%203.6%20%7C%203.7-blue)
 
-# PUBLIC Watson CSM's Common Collateral
+# PUBLIC CSM's Common Collateral
 
 This is a collection of scripts, notebooks, and projects developed by IBM CSMs within the Data & AI organization. The goal of this repository is to capture some best practices and useful tools and utilities, as well as provide a place where people can learn and discover how to make more effective use of the IBM Watson capabilities.
 
@@ -39,6 +39,7 @@ There is no real required learning or skills needed for using and/or participati
 
 ## Links to Project Areas
 
+- [CloudPak for Data](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/CP4D) - Area for CloudPak for Data (CP4D) materials.
 - [Watson Assistant](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonAssistant) - Area for Watson Assistant materials.
 - [Watson Discovery](https://github.com/public-data-and-ai-csm/Public-DataAI-Assets/tree/master/WatsonDiscovery) - Area for Watson Discovery materials.
 - [Landing Pages](https://public-data-and-ai-csm.github.io/Public-DataAI-Assets/) - Area for various landing pages with links to high value material.
