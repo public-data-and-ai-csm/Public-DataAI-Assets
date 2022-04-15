@@ -254,6 +254,7 @@ Data science manages to surface data and information from large data sets, to he
 - [Data Scientists and App Develpment](https://medium.com/cognitive-resonance/data-scientists-and-app-development-fde50ebb54de#.nz70d9ke0) - Anthony discusses the importance of data science in the building of cognitive applications, and he shares some ways to learn more about data science.
 - [Invisible Design - AirBnb](http://airbnb.design/invisible-design/) - Amber Cartwright of AirBnB writes about how you need to truly understand a product and the technology behind it, to be able to design effectively.
 - [The 50 Best Free Datasets for Machine Learning](https://gengo.ai/articles/the-50-best-free-datasets-for-machine-learning/) - 50 solid free datasets for machine learning models.  Nice collection of resources here.
+- [World Data AI](https://worlddata.ai/) - register and you can see a lot of different data sets, broken out by general category and use case.
 - [Kaggle](https://www.kaggle.com/) - register and you can see all sorts of different kinds of datasets, some free, some not.
 
 ## DevOps with Cognitive on IBM Cloud
