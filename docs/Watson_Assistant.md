@@ -32,6 +32,7 @@ This is a "landing page" for Watson Assistant.  Look here for links to high valu
 
 ## Dialog
 - [Building Dialogs](https://cloud.ibm.com/docs/services/assistant?topic=assistant-dialog-build) - great starter page with video to help you in defining your entities.  It's a long page, but building a dialog can be a complex task.
+- [How to Dynamically Add Response Options to Dialog Nodes in Watson Assistant](https://medium.com/ibm-data-ai/how-to-dynamically-add-response-options-to-dialog-nodes-in-watson-assistant-e14c5e08beca) - nice article on how to dynamically configure chat responses based on dat from outside or backend systems.  Uses webhooks and is a nice example of how to best do this.
 - [How to build dialog in your chatbot with Watson Assistant](https://www.youtube.com/watch?v=XkhAMe9gSFU) - in this 15 minute YouTube video, you will see how to create dialog nodes and have them use intents and entities to properly answer your end user questions.
 - [SpEL Language Guide](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#expressions-language-ref) - Valid expressions in conditions are written in the Spring Expression (SpEL) language.  This is a reference guide for the SpEL language.
 - [Watson Assistant – Advanced dialog tutorial](https://www.youtube.com/watch?v=Z_vmzC0tu60) - an 11 minute YouTube tutorial on using some more advanced techniques, like slots and context variables.
