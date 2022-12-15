@@ -9,7 +9,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "css-select":">=2.1.0",
+    "css-select":">=3.0.0",
     "dotenv": ">=8.2.0",
     "ibm-watson": ">=7.1.2",
     "nth-check":">=2.0.1",
