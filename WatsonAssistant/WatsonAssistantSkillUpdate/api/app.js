@@ -11,7 +11,8 @@ var app = express();
 require('dotenv').config()
 
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+//app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 // app.set('port', process.env.PORT || 9000);
 app.set('port', 9000);
 
@@ -34,7 +35,8 @@ app.use(function (req, res, next) {
 // error handler
 app.use(function (err, req, res, next) {
   console.error(err);
-  res.render('error.jade', {message: 'ERROR', error: err});
+  //res.render('error.jade', {message: 'ERROR', error: err});
+  res.render('error.pug', {message: 'ERROR', error: err});
   // next(err)
 });
 
